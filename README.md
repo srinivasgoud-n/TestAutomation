@@ -1,2 +1,1 @@
-# Test_automation
-Test_automation
+# Test automation using Selenium and Java, TestNG

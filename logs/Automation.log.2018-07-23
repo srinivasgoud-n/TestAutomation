@@ -1,0 +1,64 @@
+ INFO 2018-07-23 14:21:13,824 [base.BrowserManager] [main] [GmailLogin.java:19] - Enter username
+ INFO 2018-07-23 14:22:09,939 [base.BrowserManager] [main] [GmailLogin.java:19] - Enter username
+ INFO 2018-07-23 14:22:10,264 [base.BrowserManager] [main] [GmailLogin.java:24] - click next button
+ INFO 2018-07-23 14:22:10,459 [base.BrowserManager] [main] [GmailLogin.java:29] - Enter password
+ INFO 2018-07-23 14:22:11,224 [base.BrowserManager] [main] [GmailLogin.java:24] - click next button
+ INFO 2018-07-23 14:22:11,389 [base.BrowserManager] [main] [GmailLogin.java:35] - Check whether Gmail Compose button is displayed
+ INFO 2018-07-23 14:22:17,331 [base.BrowserManager] [main] [GmailCompose.java:24] - click compose button
+ INFO 2018-07-23 14:22:19,461 [base.BrowserManager] [main] [GmailCompose.java:30] - enter emailIDs in To field
+ INFO 2018-07-23 14:22:20,695 [base.BrowserManager] [main] [GmailCompose.java:35] - enter subject
+ INFO 2018-07-23 14:22:21,457 [base.BrowserManager] [main] [GmailCompose.java:40] - enter email body
+ INFO 2018-07-23 14:22:21,664 [base.BrowserManager] [main] [GmailCompose.java:45] - click send button
+ INFO 2018-07-23 14:22:21,913 [base.BrowserManager] [main] [GmailCompose.java:50] - Check whether success message is displayed
+ INFO 2018-07-23 17:04:56,008 [base.BrowserManager] [main] [BrowserManager.java:90] - Execution Started at 23-07-2018-05-04-56
+ INFO 2018-07-23 17:05:05,584 [base.BrowserManager] [main] [GmailLoginPage.java:19] - Enter username
+ INFO 2018-07-23 17:05:05,917 [base.BrowserManager] [main] [GmailLoginPage.java:24] - click next button
+ INFO 2018-07-23 17:05:08,159 [base.BrowserManager] [main] [GmailLoginPage.java:29] - Enter password
+ INFO 2018-07-23 17:05:08,782 [base.BrowserManager] [main] [GmailLoginPage.java:24] - click next button
+ INFO 2018-07-23 17:05:09,892 [base.BrowserManager] [main] [GmailLoginPage.java:35] - Check whether Gmail Compose button is displayed
+ INFO 2018-07-23 17:05:14,702 [base.BrowserManager] [main] [GmailComposePage.java:24] - click compose button
+ INFO 2018-07-23 17:05:18,378 [base.BrowserManager] [main] [GmailComposePage.java:30] - enter emailIDs in To field
+ INFO 2018-07-23 17:05:19,816 [base.BrowserManager] [main] [GmailComposePage.java:35] - enter subject
+ INFO 2018-07-23 17:05:19,989 [base.BrowserManager] [main] [GmailComposePage.java:40] - enter email body
+ INFO 2018-07-23 17:05:20,205 [base.BrowserManager] [main] [GmailComposePage.java:45] - click send button
+ INFO 2018-07-23 17:05:21,588 [base.BrowserManager] [main] [GmailComposePage.java:50] - Check whether success message is displayed
+ INFO 2018-07-23 17:05:21,662 [base.BrowserManager] [main] [BrowserManager.java:126] - ####Test Case PASSED:testGmailLogin
+ INFO 2018-07-23 17:05:24,932 [base.BrowserManager] [main] [BrowserManager.java:226] - Execution Completed at: 23-07-2018-05-05-24
+ INFO 2018-07-23 17:05:24,942 [base.BrowserManager] [main] [BrowserManager.java:231] - Time Taken for Execution: 28 Second(s).
+ INFO 2018-07-23 17:05:24,946 [base.BrowserManager] [main] [BrowserManager.java:234] - Total Time Taken for Execution: 
+ INFO 2018-07-23 17:05:24,972 [base.BrowserManager] [main] [BrowserManager.java:247] - Folder: C:\Praveen\seleniumautomation\Reports Copied to C:\Praveen\seleniumautomation\TestAutomationReports\23-07-2018-05-05-24
+ INFO 2018-07-23 17:05:24,988 [base.BrowserManager] [main] [BrowserManager.java:251] - File: C:\Praveen\seleniumautomation\TestReport.html Copied to C:\Praveen\seleniumautomation\TestAutomationReports\23-07-2018-05-05-24
+ INFO 2018-07-23 17:06:01,458 [base.BrowserManager] [main] [BrowserManager.java:90] - Execution Started at 23-07-2018-05-06-01
+ INFO 2018-07-23 17:06:11,112 [base.BrowserManager] [main] [GmailLoginPage.java:19] - Enter username
+ INFO 2018-07-23 17:06:16,962 [base.BrowserManager] [main] [BrowserManager.java:130] - ####Test Case FAILED:testGmailLogin
+ INFO 2018-07-23 17:06:19,754 [base.BrowserManager] [main] [BrowserManager.java:226] - Execution Completed at: 23-07-2018-05-06-19
+ INFO 2018-07-23 17:06:19,764 [base.BrowserManager] [main] [BrowserManager.java:231] - Time Taken for Execution: 18 Second(s).
+ INFO 2018-07-23 17:06:19,771 [base.BrowserManager] [main] [BrowserManager.java:234] - Total Time Taken for Execution: 
+ INFO 2018-07-23 17:06:19,805 [base.BrowserManager] [main] [BrowserManager.java:247] - Folder: C:\Praveen\seleniumautomation\Reports Copied to C:\Praveen\seleniumautomation\TestAutomationReports\23-07-2018-05-06-19
+ INFO 2018-07-23 17:06:19,820 [base.BrowserManager] [main] [BrowserManager.java:251] - File: C:\Praveen\seleniumautomation\TestReport.html Copied to C:\Praveen\seleniumautomation\TestAutomationReports\23-07-2018-05-06-19
+ INFO 2018-07-23 17:08:22,183 [base.BrowserManager] [main] [BrowserManager.java:90] - Execution Started at 23-07-2018-05-08-22
+ INFO 2018-07-23 17:08:31,652 [base.BrowserManager] [main] [GmailLoginPage.java:19] - Enter username
+ INFO 2018-07-23 17:09:07,574 [base.BrowserManager] [main] [BrowserManager.java:130] - ####Test Case FAILED:testGmailLogin
+ INFO 2018-07-23 17:09:10,676 [base.BrowserManager] [main] [BrowserManager.java:226] - Execution Completed at: 23-07-2018-05-09-10
+ INFO 2018-07-23 17:09:10,686 [base.BrowserManager] [main] [BrowserManager.java:231] - Time Taken for Execution: 48 Second(s).
+ INFO 2018-07-23 17:09:10,688 [base.BrowserManager] [main] [BrowserManager.java:234] - Total Time Taken for Execution: 
+ INFO 2018-07-23 17:09:10,734 [base.BrowserManager] [main] [BrowserManager.java:247] - Folder: C:\Praveen\seleniumautomation\Reports Copied to C:\Praveen\seleniumautomation\TestAutomationReports\23-07-2018-05-09-10
+ INFO 2018-07-23 17:09:10,749 [base.BrowserManager] [main] [BrowserManager.java:251] - File: C:\Praveen\seleniumautomation\TestReport.html Copied to C:\Praveen\seleniumautomation\TestAutomationReports\23-07-2018-05-09-10
+ INFO 2018-07-23 17:14:22,718 [base.BrowserManager] [main] [BrowserManager.java:90] - Execution Started at 23-07-2018-05-14-22
+ INFO 2018-07-23 17:14:31,801 [base.BrowserManager] [main] [GmailLoginPage.java:19] - Enter username
+ INFO 2018-07-23 17:14:54,531 [base.BrowserManager] [main] [BrowserManager.java:130] - ####Test Case FAILED:testGmailLogin
+ INFO 2018-07-23 17:14:57,404 [base.BrowserManager] [main] [BrowserManager.java:226] - Execution Completed at: 23-07-2018-05-14-57
+ INFO 2018-07-23 17:14:57,408 [base.BrowserManager] [main] [BrowserManager.java:231] - Time Taken for Execution: 35 Second(s).
+ INFO 2018-07-23 17:14:57,409 [base.BrowserManager] [main] [BrowserManager.java:234] - Total Time Taken for Execution: 
+ INFO 2018-07-23 17:14:57,423 [base.BrowserManager] [main] [BrowserManager.java:247] - Folder: C:\Praveen\seleniumautomation\Reports Copied to C:\Praveen\seleniumautomation\TestAutomationReports\23-07-2018-05-14-57
+ INFO 2018-07-23 17:14:57,431 [base.BrowserManager] [main] [BrowserManager.java:251] - File: C:\Praveen\seleniumautomation\TestReport.html Copied to C:\Praveen\seleniumautomation\TestAutomationReports\23-07-2018-05-14-57
+ INFO 2018-07-23 17:15:43,899 [base.BrowserManager] [main] [BrowserManager.java:90] - Execution Started at 23-07-2018-05-15-43
+ INFO 2018-07-23 17:15:53,345 [base.BrowserManager] [main] [GmailLoginPage.java:19] - Enter username
+ INFO 2018-07-23 17:19:45,453 [base.BrowserManager] [main] [BrowserManager.java:90] - Execution Started at 23-07-2018-05-19-45
+ INFO 2018-07-23 17:19:54,558 [base.BrowserManager] [main] [GmailLoginPage.java:19] - Enter username
+ INFO 2018-07-23 17:20:04,654 [base.BrowserManager] [main] [BrowserManager.java:130] - ####Test Case FAILED:testGmailLogin
+ INFO 2018-07-23 17:20:07,674 [base.BrowserManager] [main] [BrowserManager.java:227] - Execution Completed at: 23-07-2018-05-20-07
+ INFO 2018-07-23 17:20:07,677 [base.BrowserManager] [main] [BrowserManager.java:232] - Time Taken for Execution: 22 Second(s).
+ INFO 2018-07-23 17:20:07,678 [base.BrowserManager] [main] [BrowserManager.java:235] - Total Time Taken for Execution: 
+ INFO 2018-07-23 17:20:07,688 [base.BrowserManager] [main] [BrowserManager.java:248] - Folder: C:\Praveen\seleniumautomation\Reports Copied to C:\Praveen\seleniumautomation\TestAutomationReports\23-07-2018-05-20-07
+ INFO 2018-07-23 17:20:07,693 [base.BrowserManager] [main] [BrowserManager.java:252] - File: C:\Praveen\seleniumautomation\TestReport.html Copied to C:\Praveen\seleniumautomation\TestAutomationReports\23-07-2018-05-20-07

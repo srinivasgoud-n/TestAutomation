@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSite Suite Module Test Suite" thread-count="3"
+	verbose="1">
+	<test name="AutomateTestSite Testcase Module Test Cases ">
+		<classes>
+			<class name="org.test.automation.testcases.AutomateTestSite">
+				<methods>
+					<include name="TC_testCheckboxes" />
+					<include name="TC_testFileUpload" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Gmail Test Module Test Cases ">
+		<classes>
+			<class name="org.test.automation.testcases.GmailTest">
+				<methods>
+					<include name="TC_testGmailCompose" />
+					<include name="TC_testGmailLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

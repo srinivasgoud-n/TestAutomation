@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>User Login Page</title>
+</head>
+<body>
+	<script type="text/javascript" src="formvalidation.js"></script>
+	<form action="form-handler" name="uservalidation"
+		onsubmit="return checkForm(this);">
+		<table>
+			<tr>
+				<td align="center">UserName <input type="text" id="username"
+					maxlength="10">
+				</td>
+			</tr>
+			<tr>
+				<td align="center">Password <input type="password"
+					id="password" maxlength="10">
+				</td>
+			</tr>
+			<tr>
+				<td align="center"><input type="submit" id="submitForm"
+					value="submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

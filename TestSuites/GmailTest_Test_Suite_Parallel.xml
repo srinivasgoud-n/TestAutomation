@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Gmail Automation Module Test Suite" thread-count="6"
+	verbose="1" parallel="tests">
+	<test name="Gmail Test Module Test Cases  - Chrome Browser">
+		<parameter name="browser" value="CHROME" />
+		<classes>
+			<class name="org.test.automation.testcases.GmailTest" />
+		</classes>
+	</test>
+
+	<test name="Gmail Test Module Test Cases  - Firefox Browser">
+		<parameter name="browser" value="FIREFOX" />
+		<classes>
+			<class name="org.test.automation.testcases.GmailTest" />
+		</classes>
+	</test>
+</suite>

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13139" started-at="2019-02-08T10:01:31Z" finished-at="2019-02-08T10:01:44Z">
+  <suite name="Default suite" duration-ms="42743" started-at="2019-02-08T10:57:10Z" finished-at="2019-02-08T10:57:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13139" started-at="2019-02-08T10:01:31Z" finished-at="2019-02-08T10:01:44Z">
+    <test name="Default test" duration-ms="42743" started-at="2019-02-08T10:57:10Z" finished-at="2019-02-08T10:57:53Z">
       <class name="org.test.automation.testcases.SampleTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:org.test.automation.testcases.SampleTest@66a3ffec]" name="init" is-config="true" duration-ms="56" started-at="2019-02-08T15:31:31Z" finished-at="2019-02-08T15:31:31Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:org.test.automation.testcases.SampleTest@1139b2f3]" name="init" is-config="true" duration-ms="11727" started-at="2019-02-08T16:27:10Z" finished-at="2019-02-08T16:27:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.test.automation.testcases.SampleTest@66a3ffec]" name="setup" is-config="true" duration-ms="7137" started-at="2019-02-08T15:31:31Z" finished-at="2019-02-08T15:31:38Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:org.test.automation.testcases.SampleTest@1139b2f3]" name="setup" is-config="true" duration-ms="15886" started-at="2019-02-08T16:27:22Z" finished-at="2019-02-08T16:27:38Z">
           <params>
             <param index="0">
               <value>
@@ -22,38 +22,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:org.test.automation.testcases.SampleTest@66a3ffec]" name="testMethod" duration-ms="5349" started-at="2019-02-08T15:31:38Z" finished-at="2019-02-08T15:31:43Z">
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:org.test.automation.testcases.SampleTest@1139b2f3]" name="testMethod" duration-ms="3914" started-at="2019-02-08T16:27:38Z" finished-at="2019-02-08T16:27:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:org.test.automation.testcases.SampleTest@66a3ffec]" name="tearDown" is-config="true" duration-ms="180" started-at="2019-02-08T15:31:43Z" finished-at="2019-02-08T15:31:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:org.test.automation.testcases.SampleTest@1139b2f3]" name="tearDown" is-config="true" duration-ms="243" started-at="2019-02-08T16:27:42Z" finished-at="2019-02-08T16:27:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testMethod status=SUCCESS method=SampleTest.testMethod()[pri:0, instance:org.test.automation.testcases.SampleTest@66a3ffec] output={null}]]]>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=SampleTest.testMethod()[pri:0, instance:org.test.automation.testcases.SampleTest@1139b2f3] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@7fd7a283]]>
+                <![CDATA[org.testng.TestRunner@1654a892]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="prepareTestReport(org.testng.ITestContext)[pri:0, instance:org.test.automation.testcases.SampleTest@66a3ffec]" name="prepareTestReport" is-config="true" duration-ms="401" started-at="2019-02-08T15:31:43Z" finished-at="2019-02-08T15:31:44Z">
+        <test-method status="PASS" signature="prepareTestReport(org.testng.ITestContext)[pri:0, instance:org.test.automation.testcases.SampleTest@1139b2f3]" name="prepareTestReport" is-config="true" duration-ms="10917" started-at="2019-02-08T16:27:42Z" finished-at="2019-02-08T16:27:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7fd7a283]]>
+                <![CDATA[org.testng.TestRunner@1654a892]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareTestReport -->
-        <test-method status="PASS" signature="stop()[pri:0, instance:org.test.automation.testcases.SampleTest@66a3ffec]" name="stop" is-config="true" duration-ms="1" started-at="2019-02-08T15:31:44Z" finished-at="2019-02-08T15:31:44Z">
+        <test-method status="PASS" signature="stop()[pri:0, instance:org.test.automation.testcases.SampleTest@1139b2f3]" name="stop" is-config="true" duration-ms="642" started-at="2019-02-08T16:27:53Z" finished-at="2019-02-08T16:27:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->

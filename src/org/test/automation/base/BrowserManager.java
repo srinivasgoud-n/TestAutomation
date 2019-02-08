@@ -42,6 +42,7 @@ import org.testng.annotations.Parameters;
 public class BrowserManager {
 
 	protected static final String fs = Helper.getFileSeparator();
+	protected static final String OS_NAME = Helper.getOSType();
 	protected static WebDriver _Driver = null;
 	protected static String CURRENTDIR = System.getProperty("user.dir");
 	public static Logger log = Logger.getLogger(BrowserManager.class);
@@ -126,13 +127,13 @@ public class BrowserManager {
 		switch (browserName) {
 		case "CHROME":
 			// killProcess("CHROME");
-			if (System.getProperty("os.name").toUpperCase().contains("WINDOWS")) {
+			if (OS_NAME.equalsIgnoreCase("WINDOWS")) {
 				log.info("Executing on Windows machine...");
 				System.setProperty("webdriver.chrome.driver", CURRENTDIR + fs+ "ExecutableDrivers"+fs+"chromedriver.exe");
-			} else if (System.getProperty("os.name").toUpperCase().contains("MAC")) {
+			} else if (OS_NAME.equalsIgnoreCase("MAC")) {
 				log.info("Executing on MAC machine...");
 				System.setProperty("webdriver.chrome.driver", CURRENTDIR + fs+"ExecutableDrivers"+fs+"chromedriver_MAC");
-			} else if (System.getProperty("os.name").toUpperCase().contains("LINUX")) {
+			} else if (OS_NAME.equalsIgnoreCase("LINUX")) {
 				log.info("Executing on Linux machine...");
 				System.setProperty("webdriver.chrome.driver", CURRENTDIR + fs+"ExecutableDrivers"+fs+"chromedriver_Linux");
 			}
@@ -279,16 +280,16 @@ public class BrowserManager {
 				reportPath, exceptionList, snapShotList, totalTimeTaken, TimeUtils.getMessageBasedonTime(), tcDetails);
 
 		String destpath = "";
-		destpath = System.getProperty("user.dir") + fs+"TestAutomationReports" +fs+ DateUtils.DateTime();
+		destpath = CURRENTDIR + fs+"TestAutomationReports" +fs+ DateUtils.DateTime();
 
 		FileUtils.copyDirectory(new File(System.getProperty("user.dir") + fs+"Snapshots"+fs), new File(destpath));
 		log.info("Folder: " + System.getProperty("user.dir") + fs+"Reports Copied to " + destpath);
-		FileUtils.copyFileToDirectory(new File(System.getProperty("user.dir") + fs+"TestReport.html"),
+		FileUtils.copyFileToDirectory(new File(System.getProperty("user.dir") + fs+"TestReport.html"+fs),
 				new File(destpath));
 
-		log.info("File: " + CURRENTDIR + fs+"TestReport.html Copied to " + destpath);
+		log.info("File: " + CURRENTDIR + fs+"TestReport.html"+fs+" Copied to " + destpath);
 		try {
-			FileUtils.copyFileToDirectory(new File(System.getProperty("user.dir") + fs+"testng-failed.xml"),
+			FileUtils.copyFileToDirectory(new File(System.getProperty("user.dir") + fs+"testng-failed.xml"+fs),
 					new File(destpath));
 
 			log.info("File: " + System.getProperty("user.dir") + fs+"testng-failed.xml Copied to " + destpath);

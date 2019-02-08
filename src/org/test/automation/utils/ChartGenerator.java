@@ -36,9 +36,9 @@ public class ChartGenerator extends BrowserManager {
 		}
 
 		try {
-			ChartUtilities.saveChartAsJPEG(new File(CURRENTDIR + "\\Snapshots\\AutomationTestReport.jpg"), piechart,
+			ChartUtilities.saveChartAsJPEG(new File(CURRENTDIR + fs+"Snapshots"+fs+"AutomationTestReport.jpg"), piechart,
 					600, 400);
-			chartPath = CURRENTDIR + "\\Snapshots\\AutomationTestReport.jpg";
+			chartPath = CURRENTDIR + fs+"Snapshots"+fs+"AutomationTestReport.jpg";
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

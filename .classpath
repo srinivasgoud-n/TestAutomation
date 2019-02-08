@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="Libs/activation.jar"/>
+	<classpathentry kind="lib" path="Libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="Libs/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="Libs/commons-el-1.0.jar"/>
+	<classpathentry kind="lib" path="Libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="Libs/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="Libs/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="Libs/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="Libs/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="Libs/jcommon-1.0.17.jar"/>
+	<classpathentry kind="lib" path="Libs/jfreechart-1.0.1-demo.jar"/>
+	<classpathentry kind="lib" path="Libs/jfreechart-1.0.1.jar"/>
+	<classpathentry kind="lib" path="Libs/log4j.jar"/>
+	<classpathentry kind="lib" path="Libs/mail.jar"/>
+	<classpathentry kind="lib" path="Libs/mailapi.jar"/>
+	<classpathentry kind="lib" path="Libs/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="Libs/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="Libs/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="Libs/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="Libs/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="Libs/selenium-firefox-driver-2.4.0.jar"/>
+	<classpathentry kind="lib" path="Libs/selenium-java-2.53.1-srcs.jar"/>
+	<classpathentry kind="lib" path="Libs/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="Libs/selenium-server-standalone-2.45.0.jar"/>
+	<classpathentry kind="lib" path="Libs/xmlbeans-5.1.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

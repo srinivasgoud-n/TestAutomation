@@ -130,7 +130,7 @@ public class Helper extends BrowserManager {
 	
 	public static String getOSType()
 	{
-		return System.getProperty("os.name");
+		return System.getProperty("os.name").toUpperCase();
 	}
 	
 	public static String getFileSeparator()

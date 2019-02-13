@@ -6,6 +6,12 @@ import org.test.automation.exception.GmailException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class AutomateTestSite extends BrowserManager{
 	
 	AutomateSitePage page = new AutomateSitePage();

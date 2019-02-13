@@ -18,6 +18,12 @@ import javax.mail.internet.MimeMultipart;
 
 import org.test.automation.base.BrowserManager;
 
+
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class SendEmail extends BrowserManager {
 
 	public static void sendTestReports(String subject, String toField, String CCField, String BCCField) {

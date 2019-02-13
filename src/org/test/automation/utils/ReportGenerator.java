@@ -12,6 +12,12 @@ import java.util.NoSuchElementException;
 import org.test.automation.base.BrowserManager;
 import org.test.automation.exception.GmailException;
 
+
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class ReportGenerator extends BrowserManager {
 
 	public static void writeToHTML(String browserName, String url, ArrayList<String> _Modules, ArrayList<String> tCList,

@@ -14,6 +14,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.test.automation.exception.GmailException;
 
+
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class Helper extends BrowserManager {
 
 	public static int EXPLICIT_TIMEOUT = 30;

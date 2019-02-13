@@ -17,6 +17,11 @@ import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
 
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class SendInlineImagesInEmail {
 	public static void sendGreetings(String subject, String toField, String CCField, String BCCField,String filePath) throws IOException {
 		Properties props = new Properties();

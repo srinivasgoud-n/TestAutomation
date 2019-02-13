@@ -4,9 +4,14 @@ import org.openqa.selenium.By;
 import org.test.automation.base.BrowserManager;
 import org.test.automation.base.Helper;
 import org.test.automation.exception.GmailException;
-import org.testng.SkipException;
 import org.testng.annotations.Test;
 
+
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class CheckLocatorChanges extends BrowserManager {
 
 	By txtUserName = By.id("username");
@@ -23,7 +28,7 @@ public class CheckLocatorChanges extends BrowserManager {
 			_Driver.findElement(txtUserName).sendKeys("admin");
 			_Driver.findElement(txtPassword).sendKeys("admin");
 		} else {
-			throw new SkipException("Locator Changed");
+			throw new GmailException("Locator Changed");
 		}
 		Thread.sleep(3000);
 	}

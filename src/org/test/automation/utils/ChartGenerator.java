@@ -9,6 +9,11 @@ import org.jfree.chart.plot.PiePlot;
 import org.jfree.data.general.DefaultPieDataset;
 import org.test.automation.base.BrowserManager;
 
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class ChartGenerator extends BrowserManager {
 	public static String getChart(int passedcount, int failedCount, int SkippedCount) {
 		String chartPath = "";

@@ -7,6 +7,11 @@ import java.util.Date;
 import org.test.automation.exception.GmailException;
 
 
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class DateUtils {
 	
 	private static final String DATE_FORMAT_NOW = "dd-MM-yyyy-hh-mm-ss";

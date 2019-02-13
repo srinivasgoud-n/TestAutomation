@@ -11,6 +11,11 @@ import java.util.Iterator;
 import org.test.automation.exception.GmailException;
 
 
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class GenerateTestNGTestSuite {
 	
 	public static void generateTestSuite(String className,String suiteName,String testName) throws GmailException, ClassNotFoundException, IOException {

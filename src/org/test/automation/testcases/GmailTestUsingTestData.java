@@ -11,6 +11,12 @@ import org.test.automation.utils.UserData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class GmailTestUsingTestData extends BrowserManager {
 
 	private GmailLoginPage login = new GmailLoginPage();

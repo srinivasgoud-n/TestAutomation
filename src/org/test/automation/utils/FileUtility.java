@@ -5,6 +5,12 @@ import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 
+
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class FileUtility {
 
 	public static void cleanFolder(String folderName) throws IOException {

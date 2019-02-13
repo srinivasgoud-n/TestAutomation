@@ -6,6 +6,11 @@ import org.test.automation.base.BrowserManager;
 import org.test.automation.exception.GmailException;
 import org.testng.annotations.Test;
 
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class SampleTest extends BrowserManager{
 	
 	

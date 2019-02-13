@@ -1,5 +1,11 @@
 package org.test.automation.utils;
 
+
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class StringUtils {
 	
 	public static String toCamelCase(String inputString) {

@@ -9,6 +9,11 @@ import org.test.automation.utils.PropertyReader;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class GmailTest extends BrowserManager {
 	
 	private GmailLoginPage login = new GmailLoginPage();

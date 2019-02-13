@@ -39,6 +39,13 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+
+
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class BrowserManager {
 
 	protected static final String fs = Helper.getFileSeparator();

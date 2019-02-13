@@ -10,6 +10,11 @@ import org.test.automation.base.BrowserManager;
 import org.test.automation.exception.GmailException;
 
 
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class TimeUtils extends BrowserManager {
 	
 	

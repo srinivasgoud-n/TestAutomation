@@ -2,11 +2,15 @@ package org.test.automation.testcases;
 
 import org.openqa.selenium.By;
 import org.test.automation.base.BrowserManager;
-import org.test.automation.base.Helper;
 import org.test.automation.exception.GmailException;
-import org.testng.SkipException;
 import org.testng.annotations.Test;
 
+
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class Normalexeflow extends BrowserManager {
 
 	By txtUserName = By.id("username");

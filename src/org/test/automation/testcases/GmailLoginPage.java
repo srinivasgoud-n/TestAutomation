@@ -7,6 +7,12 @@ import org.test.automation.base.BrowserManager;
 import org.test.automation.base.Helper;
 import org.test.automation.exception.GmailException;
 
+
+/**
+ * 
+ * @author Srinivas Goud Nakka
+ *
+ */
 public class GmailLoginPage extends BrowserManager {
 
 	By usernameTextField = By.id("identifierId");

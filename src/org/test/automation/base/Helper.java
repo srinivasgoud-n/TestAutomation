@@ -147,5 +147,21 @@ public class Helper extends BrowserManager {
 		}
 		return fs;
 	}
+	
+	public static boolean verifyElementLocator(By locator)
+	{
+		boolean flag =  false;
+		String loc = locator.toString().split(":")[1].trim();
+		List<WebElement> listOFElements = _Driver.findElements(By.tagName("input"));
+		for(int i=0;i<listOFElements.size();i++)
+		{
+			if(listOFElements.get(i).getAttribute("id").equals(loc))
+			{
+				flag = true;
+			}
+		}
+		
+		return flag;
+	}
 
 }

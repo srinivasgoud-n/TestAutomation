@@ -111,7 +111,8 @@ public class BrowserManager {
 	public void setup(@Optional("CHROME") String browserName) throws Exception {
 
 		startBrowser("CHROME");
-		navigateToURL(PropertyReader.getProperty("baseURL"));
+//		navigateToURL(PropertyReader.getProperty("baseURL"));
+		navigateToURL("file:///home/snakka/Downloads/SeleniumAutomation/TestAutomation/user.html");
 
 	}
 

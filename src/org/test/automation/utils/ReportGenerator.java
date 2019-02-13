@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 import org.test.automation.base.BrowserManager;
 import org.test.automation.exception.GmailException;
@@ -395,8 +396,16 @@ public class ReportGenerator extends BrowserManager {
 			sb.append("&nbsp;&nbsp;&nbsp;&nbsp;");
 			sb.append(tc.next());
 			sb.append("</td>");
-
-			String _Status = status.next();
+			
+			String _Status = "";
+			try
+			{
+				_Status = status.next();
+			}
+			catch(NoSuchElementException nse)
+			{
+				
+			}
 
 			System.out.println("::" + _Status + "::" + TCPASSED + "::" + TCFAILED + "::" + TCSKIPPED);
 

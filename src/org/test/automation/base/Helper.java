@@ -25,8 +25,8 @@ public class Helper extends BrowserManager {
 	public static boolean flag = false;
 
 	public static WebElement getelement(By locator) throws GmailException {
+		Helper.verifyElementLocator(locator);
 		WebElement element = null;
-
 		WebDriverWait wait = new WebDriverWait(_Driver, 15);
 		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
@@ -60,7 +60,7 @@ public class Helper extends BrowserManager {
 	}
 
 	public static void enterText(By locator, String value) throws GmailException {
-		Helper.verifyElementLocator(locator);
+		
 		getelement(locator).sendKeys(value);
 	}
 

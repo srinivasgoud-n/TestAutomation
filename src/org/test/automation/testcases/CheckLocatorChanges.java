@@ -15,12 +15,9 @@ public class CheckLocatorChanges extends BrowserManager {
 
 	By txtUserName = By.id("username");
 	By txtPassword = By.id("password");
-	boolean flag = false;
 
 	@Test
 	public void verify() throws InterruptedException, GmailException {
-		System.out.println(txtUserName);
-		System.out.println(txtPassword);
 		Helper.enterText(txtUserName, "admin");
 		Helper.enterText(txtPassword, "admin");
 		Thread.sleep(3000);

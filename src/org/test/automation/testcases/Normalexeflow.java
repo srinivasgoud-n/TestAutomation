@@ -18,7 +18,7 @@ public class Normalexeflow extends BrowserManager {
 	boolean flag = false;
 
 	@Test
-	public void existing1() throws InterruptedException, GmailException {
+	public void TC_1() throws InterruptedException, GmailException {
 
 		_Driver.findElement(txtUserName).sendKeys("admin");
 		_Driver.findElement(txtPassword).sendKeys("admin");
@@ -27,7 +27,7 @@ public class Normalexeflow extends BrowserManager {
 	}
 	
 	@Test
-	public void existing2() throws InterruptedException, GmailException {
+	public void TC_2() throws InterruptedException, GmailException {
 
 		_Driver.findElement(txtUserName).sendKeys("admin");
 		_Driver.findElement(txtPassword).sendKeys("admin");
@@ -36,7 +36,7 @@ public class Normalexeflow extends BrowserManager {
 	}
 	
 	@Test
-	public void existing3() throws InterruptedException, GmailException {
+	public void TC_3() throws InterruptedException, GmailException {
 
 		_Driver.findElement(txtUserName).sendKeys("admin");
 		_Driver.findElement(txtPassword).sendKeys("admin");
@@ -45,7 +45,7 @@ public class Normalexeflow extends BrowserManager {
 	}
 	
 	@Test
-	public void existing4() throws InterruptedException, GmailException {
+	public void TC_4() throws InterruptedException, GmailException {
 
 		_Driver.findElement(txtUserName).sendKeys("admin");
 		_Driver.findElement(txtPassword).sendKeys("admin");

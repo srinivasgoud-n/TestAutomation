@@ -6,7 +6,6 @@ import org.test.automation.base.Helper;
 import org.test.automation.exception.GmailException;
 import org.testng.annotations.Test;
 
-
 /**
  * 
  * @author Srinivas Goud Nakka
@@ -18,22 +17,16 @@ public class CheckLocatorChanges extends BrowserManager {
 	By txtPassword = By.id("password");
 	boolean flag = false;
 
-	
 	@Test
 	public void verify() throws InterruptedException, GmailException {
 		System.out.println(txtUserName);
 		System.out.println(txtPassword);
-		flag = Helper.verifyElementLocator(txtUserName);
-		if (flag) {
-			_Driver.findElement(txtUserName).sendKeys("admin");
-			_Driver.findElement(txtPassword).sendKeys("admin");
-		} else {
-			throw new GmailException("Locator Changed");
-		}
+		Helper.enterText(txtUserName, "admin");
+		Helper.enterText(txtPassword, "admin");
 		Thread.sleep(3000);
 	}
-	
-	@Test(dependsOnMethods= {"verify"})
+
+	@Test(dependsOnMethods = { "verify" })
 	public void TC_1() throws InterruptedException, GmailException {
 
 		_Driver.findElement(txtUserName).sendKeys("admin");
@@ -41,8 +34,8 @@ public class CheckLocatorChanges extends BrowserManager {
 
 		Thread.sleep(3000);
 	}
-	
-	@Test(dependsOnMethods= {"TC_1"})
+
+	@Test(dependsOnMethods = { "verify" })
 	public void TC_2() throws InterruptedException, GmailException {
 
 		_Driver.findElement(txtUserName).sendKeys("admin");
@@ -50,8 +43,8 @@ public class CheckLocatorChanges extends BrowserManager {
 
 		Thread.sleep(3000);
 	}
-	
-	@Test(dependsOnMethods= {"TC_2"})
+
+	@Test(dependsOnMethods = { "verify" })
 	public void TC_3() throws InterruptedException, GmailException {
 
 		_Driver.findElement(txtUserName).sendKeys("admin");
@@ -59,8 +52,8 @@ public class CheckLocatorChanges extends BrowserManager {
 
 		Thread.sleep(3000);
 	}
-	
-	@Test(dependsOnMethods= {"TC_3"})
+
+	@Test(dependsOnMethods = { "verify" })
 	public void TC_4() throws InterruptedException, GmailException {
 
 		_Driver.findElement(txtUserName).sendKeys("admin");
@@ -68,7 +61,5 @@ public class CheckLocatorChanges extends BrowserManager {
 
 		Thread.sleep(3000);
 	}
-
-	
 
 }

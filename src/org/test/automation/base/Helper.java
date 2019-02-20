@@ -14,7 +14,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.test.automation.exception.GmailException;
 
-
 /**
  * 
  * @author Srinivas Goud Nakka
@@ -61,6 +60,7 @@ public class Helper extends BrowserManager {
 	}
 
 	public static void enterText(By locator, String value) throws GmailException {
+		Helper.verifyElementLocator(locator);
 		getelement(locator).sendKeys(value);
 	}
 
@@ -133,40 +133,52 @@ public class Helper extends BrowserManager {
 		_Driver.navigate().back();
 		waitForPageLoaded();
 	}
-	
-	public static String getOSType()
-	{
+
+	public static String getOSType() {
 		return System.getProperty("os.name").toUpperCase();
 	}
-	
-	public static String getFileSeparator()
-	{
+
+	public static String getFileSeparator() {
 		String OS = System.getProperty("os.name");
 		String fs = "";
-		if(OS.equalsIgnoreCase("WINDOWS"))
-		{
+		if (OS.equalsIgnoreCase("WINDOWS")) {
 			fs = "\\";
-		}
-		else if(OS.equalsIgnoreCase("MAC")||OS.equalsIgnoreCase("LINUX"))
-		{
+		} else if (OS.equalsIgnoreCase("MAC") || OS.equalsIgnoreCase("LINUX")) {
 			fs = "//";
 		}
 		return fs;
 	}
-	
-	public static boolean verifyElementLocator(By locator)
-	{
-		boolean flag =  false;
+
+	public static boolean verifyElementLocator(By locator) throws GmailException {
+
+		boolean flag = false;
+		String by = locator.toString().split(":")[0].trim();
 		String loc = locator.toString().split(":")[1].trim();
 		List<WebElement> listOFElements = _Driver.findElements(By.tagName("input"));
-		for(int i=0;i<listOFElements.size();i++)
-		{
-			if(listOFElements.get(i).getAttribute("id").equals(loc))
-			{
-				flag = true;
+		for (int i = 0; i < listOFElements.size(); i++) {
+			if (by.contains("id")) {
+				if (listOFElements.get(i).getAttribute("id").equals(loc)) {
+					flag = true;
+				}
+			} else if (by.contains("name")) {
+				if (listOFElements.get(i).getAttribute("name").equals(loc)) {
+					flag = true;
+				}
+			} else if (by.contains("className") || by.contains("cssSelector")) {
+				if (listOFElements.get(i).getAttribute("class").contains(loc)) {
+					flag = true;
+				}
+			} else if (by.contains("tagName")) {
+				if (listOFElements.get(i).getAttribute("tagName").equals(loc)) {
+					flag = true;
+				}
 			}
 		}
-		
+		if(!flag)
+		{
+			throw new GmailException("Locator changed. Looking for "+locator+ ", But its not available in DOM");
+		}
+
 		return flag;
 	}
 

@@ -348,7 +348,7 @@ public class ReportGenerator extends BrowserManager {
 		sb.append("</body>");
 		sb.append("</html>");
 
-		System.out.println(sb.toString());
+		//System.out.println(sb.toString());
 
 		File file = new File(System.getProperty("user.dir") + "\\TestReport.html");
 		if (!file.exists()) {
@@ -413,7 +413,7 @@ public class ReportGenerator extends BrowserManager {
 				
 			}
 
-			System.out.println("::" + _Status + "::" + TCPASSED + "::" + TCFAILED + "::" + TCSKIPPED);
+			//System.out.println("::" + _Status + "::" + TCPASSED + "::" + TCFAILED + "::" + TCSKIPPED);
 
 			if (_Status.equals(TCPASSED)) {
 				sb.append(

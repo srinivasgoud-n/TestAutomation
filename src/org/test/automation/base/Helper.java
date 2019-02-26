@@ -144,7 +144,7 @@ public class Helper extends BrowserManager {
 		if (OS.equalsIgnoreCase("WINDOWS")) {
 			fs = "\\";
 		} else if (OS.equalsIgnoreCase("MAC") || OS.equalsIgnoreCase("LINUX")) {
-			fs = "//";
+			fs = "/";
 		}
 		return fs;
 	}

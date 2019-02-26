@@ -349,8 +349,10 @@ public class ReportGenerator extends BrowserManager {
 		sb.append("</html>");
 
 		//System.out.println(sb.toString());
+		
+		System.out.println(System.getProperty("user.dir"));
 
-		File file = new File(System.getProperty("user.dir") + "\\TestReport.html");
+		File file = new File(System.getProperty("user.dir") + fs+"TestReport.html");
 		if (!file.exists()) {
 			file.createNewFile();
 		}
@@ -439,7 +441,7 @@ public class ReportGenerator extends BrowserManager {
 
 		// System.out.println(sb.toString());
 
-		File file = new File(System.getProperty("user.dir") + "\\TCTestReport.html");
+		File file = new File(System.getProperty("user.dir") + fs+"TCTestReport.html");
 		if (!file.exists()) {
 			file.createNewFile();
 		}
@@ -486,7 +488,7 @@ public class ReportGenerator extends BrowserManager {
 
 		// System.out.println(sb.toString());
 
-		File file = new File(System.getProperty("user.dir") + "\\Greetings.html");
+		File file = new File(System.getProperty("user.dir") + fs+"Greetings.html");
 		if (!file.exists()) {
 			file.createNewFile();
 		}
@@ -500,7 +502,7 @@ public class ReportGenerator extends BrowserManager {
 	
 	public static void main(String args[]) throws GmailException, IOException
 	{
-		sendGreetings(CURRENTDIR+"//Files//Morning_Wishes_Quotes_Pics_flowers.jpg", TimeUtils.getMessageBasedonTime()+" Have a Nice "+DateUtils.getDay_Week());
+		sendGreetings(CURRENTDIR+fs+"Files"+fs+"Morning_Wishes_Quotes_Pics_flowers.jpg", TimeUtils.getMessageBasedonTime()+" Have a Nice "+DateUtils.getDay_Week());
 	}
 
 }

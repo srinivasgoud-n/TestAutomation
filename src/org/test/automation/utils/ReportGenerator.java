@@ -352,7 +352,7 @@ public class ReportGenerator extends BrowserManager {
 		
 		System.out.println(System.getProperty("user.dir"));
 
-		File file = new File(System.getProperty("user.dir") + fs+"TestReport.html");
+		File file = new File(System.getProperty("user.dir") + fs+"TestReport.html"+DateUtils.DateTime());
 		if (!file.exists()) {
 			file.createNewFile();
 		}

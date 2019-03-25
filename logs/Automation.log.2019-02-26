@@ -1,0 +1,43 @@
+ INFO 2019-02-26 16:30:34,832 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 26-02-2019-04-30-34
+ INFO 2019-02-26 16:30:34,850 [base.BrowserManager] [main] [BrowserManager.java:145] - Executing on Linux machine...
+ INFO 2019-02-26 16:30:34,851 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
+ INFO 2019-02-26 16:30:42,540 [base.BrowserManager] [main] [BrowserManager.java:177] - ####Test Case PASSED:testMethod
+ INFO 2019-02-26 16:30:43,495 [base.BrowserManager] [main] [BrowserManager.java:273] - Execution Completed at: 26-02-2019-04-30-43
+ INFO 2019-02-26 16:30:43,509 [base.BrowserManager] [main] [BrowserManager.java:278] - Time Taken for Execution: 9 Second(s).
+ INFO 2019-02-26 16:30:43,510 [base.BrowserManager] [main] [BrowserManager.java:281] - Total Time Taken for Execution: 9 Second(s).
+ INFO 2019-02-26 16:41:37,231 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 26-02-2019-04-41-37
+ INFO 2019-02-26 16:41:37,246 [base.BrowserManager] [main] [BrowserManager.java:145] - Executing on Linux machine...
+ INFO 2019-02-26 16:41:37,247 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
+ INFO 2019-02-26 16:41:44,230 [base.BrowserManager] [main] [BrowserManager.java:177] - ####Test Case PASSED:testMethod
+ INFO 2019-02-26 16:41:45,003 [base.BrowserManager] [main] [BrowserManager.java:273] - Execution Completed at: 26-02-2019-04-41-45
+ INFO 2019-02-26 16:41:45,004 [base.BrowserManager] [main] [BrowserManager.java:278] - Time Taken for Execution: 8 Second(s).
+ INFO 2019-02-26 16:41:45,005 [base.BrowserManager] [main] [BrowserManager.java:281] - Total Time Taken for Execution: 8 Second(s).
+ INFO 2019-02-26 16:41:45,010 [base.BrowserManager] [main] [BrowserManager.java:294] - Folder: /home/snakka/Downloads/SeleniumAutomation/TestAutomation//Reports Copied to /home/snakka/Downloads/SeleniumAutomation/TestAutomation//TestAutomationReports//26-02-2019-04-41-45
+ INFO 2019-02-26 16:41:45,011 [base.BrowserManager] [main] [BrowserManager.java:298] - File: /home/snakka/Downloads/SeleniumAutomation/TestAutomation//TestReport.html// Copied to /home/snakka/Downloads/SeleniumAutomation/TestAutomation//TestAutomationReports//26-02-2019-04-41-45
+ INFO 2019-02-26 16:43:13,659 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 26-02-2019-04-43-13
+ INFO 2019-02-26 16:43:13,709 [base.BrowserManager] [main] [BrowserManager.java:145] - Executing on Linux machine...
+ INFO 2019-02-26 16:43:24,440 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
+ INFO 2019-02-26 16:43:50,387 [base.BrowserManager] [main] [BrowserManager.java:177] - ####Test Case PASSED:testMethod
+ INFO 2019-02-26 16:43:59,307 [base.BrowserManager] [main] [BrowserManager.java:273] - Execution Completed at: 26-02-2019-04-43-59
+ INFO 2019-02-26 16:43:59,318 [base.BrowserManager] [main] [BrowserManager.java:278] - Time Taken for Execution: 46 Second(s).
+ INFO 2019-02-26 16:43:59,325 [base.BrowserManager] [main] [BrowserManager.java:281] - Total Time Taken for Execution: 46 Second(s).
+ INFO 2019-02-26 16:44:33,998 [base.BrowserManager] [main] [BrowserManager.java:294] - Folder: /home/snakka/Downloads/SeleniumAutomation/TestAutomation/Reports Copied to /home/snakka/Downloads/SeleniumAutomation/TestAutomation/TestAutomationReports/26-02-2019-04-44-30
+ INFO 2019-02-26 16:44:38,575 [base.BrowserManager] [main] [BrowserManager.java:298] - File: /home/snakka/Downloads/SeleniumAutomation/TestAutomation/TestReport.html/ Copied to /home/snakka/Downloads/SeleniumAutomation/TestAutomation/TestAutomationReports/26-02-2019-04-44-30
+ INFO 2019-02-26 16:45:14,152 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 26-02-2019-04-45-14
+ INFO 2019-02-26 16:45:14,164 [base.BrowserManager] [main] [BrowserManager.java:145] - Executing on Linux machine...
+ INFO 2019-02-26 16:45:14,164 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
+ INFO 2019-02-26 16:45:19,998 [base.BrowserManager] [main] [BrowserManager.java:177] - ####Test Case PASSED:testMethod
+ INFO 2019-02-26 16:45:20,643 [base.BrowserManager] [main] [BrowserManager.java:273] - Execution Completed at: 26-02-2019-04-45-20
+ INFO 2019-02-26 16:45:20,646 [base.BrowserManager] [main] [BrowserManager.java:278] - Time Taken for Execution: 6 Second(s).
+ INFO 2019-02-26 16:45:20,647 [base.BrowserManager] [main] [BrowserManager.java:281] - Total Time Taken for Execution: 6 Second(s).
+ INFO 2019-02-26 16:45:20,653 [base.BrowserManager] [main] [BrowserManager.java:294] - Folder: /home/snakka/Downloads/SeleniumAutomation/TestAutomation/Reports Copied to /home/snakka/Downloads/SeleniumAutomation/TestAutomation/TestAutomationReports/26-02-2019-04-45-20
+ INFO 2019-02-26 16:45:20,655 [base.BrowserManager] [main] [BrowserManager.java:298] - File: /home/snakka/Downloads/SeleniumAutomation/TestAutomation/TestReport.html/ Copied to /home/snakka/Downloads/SeleniumAutomation/TestAutomation/TestAutomationReports/26-02-2019-04-45-20
+ INFO 2019-02-26 16:47:06,120 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 26-02-2019-04-47-06
+ INFO 2019-02-26 16:47:06,134 [base.BrowserManager] [main] [BrowserManager.java:145] - Executing on Linux machine...
+ INFO 2019-02-26 16:47:06,135 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
+ INFO 2019-02-26 16:47:11,836 [base.BrowserManager] [main] [BrowserManager.java:177] - ####Test Case PASSED:testMethod
+ INFO 2019-02-26 16:47:12,509 [base.BrowserManager] [main] [BrowserManager.java:273] - Execution Completed at: 26-02-2019-04-47-12
+ INFO 2019-02-26 16:47:12,512 [base.BrowserManager] [main] [BrowserManager.java:278] - Time Taken for Execution: 6 Second(s).
+ INFO 2019-02-26 16:47:12,513 [base.BrowserManager] [main] [BrowserManager.java:281] - Total Time Taken for Execution: 6 Second(s).
+ INFO 2019-02-26 16:47:12,518 [base.BrowserManager] [main] [BrowserManager.java:294] - Folder: /home/snakka/Downloads/SeleniumAutomation/TestAutomation/Reports Copied to /home/snakka/Downloads/SeleniumAutomation/TestAutomation/TestAutomationReports/26-02-2019-04-47-12
+ INFO 2019-02-26 16:47:12,519 [base.BrowserManager] [main] [BrowserManager.java:298] - File: /home/snakka/Downloads/SeleniumAutomation/TestAutomation/TestReport.html/ Copied to /home/snakka/Downloads/SeleniumAutomation/TestAutomation/TestAutomationReports/26-02-2019-04-47-12

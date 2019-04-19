@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import org.test.automation.exception.GmailException;
+import org.test.automation.exception.FrameWorkException;
 
 
 /**
@@ -26,7 +26,7 @@ public class DateUtils {
 								// format eg:12-02-2012 12:34:42
 	}
 	
-	public static String getDay_Week() throws GmailException {
+	public static String getDay_Week() throws FrameWorkException {
 		String day_of_week = "";
 		Calendar now = Calendar.getInstance();
 		String[] strDays = new String[] { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",

@@ -2,7 +2,7 @@ package org.test.automation.UI.testcases;
 
 import org.test.automation.base.BrowserManager;
 import org.test.automation.base.Helper;
-import org.test.automation.exception.GmailException;
+import org.test.automation.exception.FrameWorkException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -17,7 +17,7 @@ public class AutomateTestSite extends BrowserManager{
 	AutomateSitePage page = new AutomateSitePage();
 	
 	@Test
-	public void TC_testFileUpload() throws GmailException
+	public void TC_testFileUpload() throws FrameWorkException
 	{
 		navigateToURL("http://the-internet.herokuapp.com");
 		page.clickFileUploadLink();
@@ -29,7 +29,7 @@ public class AutomateTestSite extends BrowserManager{
 	}
 	
 	@Test()
-	public void TC_testCheckboxes() throws GmailException
+	public void TC_testCheckboxes() throws FrameWorkException
 	{
 		navigateToURL("http://the-internet.herokuapp.com");
 		

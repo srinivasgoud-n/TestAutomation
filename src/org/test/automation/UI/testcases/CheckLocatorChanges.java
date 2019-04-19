@@ -3,7 +3,7 @@ package org.test.automation.UI.testcases;
 import org.openqa.selenium.By;
 import org.test.automation.base.BrowserManager;
 import org.test.automation.base.Helper;
-import org.test.automation.exception.GmailException;
+import org.test.automation.exception.FrameWorkException;
 import org.testng.annotations.Test;
 
 /**
@@ -17,14 +17,14 @@ public class CheckLocatorChanges extends BrowserManager {
 	By txtPassword = By.id("password");
 
 	@Test
-	public void verify() throws InterruptedException, GmailException {
+	public void verify() throws InterruptedException, FrameWorkException {
 		Helper.enterText(txtUserName, "admin");
 		Helper.enterText(txtPassword, "admin");
 		Thread.sleep(3000);
 	}
 
 	@Test(dependsOnMethods = { "verify" })
-	public void TC_1() throws InterruptedException, GmailException {
+	public void TC_1() throws InterruptedException, FrameWorkException {
 
 		_Driver.findElement(txtUserName).sendKeys("admin");
 		_Driver.findElement(txtPassword).sendKeys("admin");
@@ -33,7 +33,7 @@ public class CheckLocatorChanges extends BrowserManager {
 	}
 
 	@Test(dependsOnMethods = { "verify" })
-	public void TC_2() throws InterruptedException, GmailException {
+	public void TC_2() throws InterruptedException, FrameWorkException {
 
 		_Driver.findElement(txtUserName).sendKeys("admin");
 		_Driver.findElement(txtPassword).sendKeys("admin");
@@ -42,7 +42,7 @@ public class CheckLocatorChanges extends BrowserManager {
 	}
 
 	@Test(dependsOnMethods = { "verify" })
-	public void TC_3() throws InterruptedException, GmailException {
+	public void TC_3() throws InterruptedException, FrameWorkException {
 
 		_Driver.findElement(txtUserName).sendKeys("admin");
 		_Driver.findElement(txtPassword).sendKeys("admin");
@@ -51,7 +51,7 @@ public class CheckLocatorChanges extends BrowserManager {
 	}
 
 	@Test(dependsOnMethods = { "verify" })
-	public void TC_4() throws InterruptedException, GmailException {
+	public void TC_4() throws InterruptedException, FrameWorkException {
 
 		_Driver.findElement(txtUserName).sendKeys("admin");
 		_Driver.findElement(txtPassword).sendKeys("admin");

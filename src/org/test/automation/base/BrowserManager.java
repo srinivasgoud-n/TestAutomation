@@ -21,7 +21,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
 import org.test.automation.constants.BrowserTYPE;
-import org.test.automation.exception.GmailException;
+import org.test.automation.exception.FrameWorkException;
 import org.test.automation.utils.ChartGenerator;
 import org.test.automation.utils.DateUtils;
 import org.test.automation.utils.FileUtility;
@@ -130,7 +130,7 @@ public class BrowserManager {
 
 	}
 
-	private WebDriver startBrowser(String browserName) throws GmailException {
+	private WebDriver startBrowser(String browserName) throws FrameWorkException {
 
 		switch (browserName) {
 		case "CHROME":
@@ -160,7 +160,7 @@ public class BrowserManager {
 			_Driver = new FirefoxDriver();
 			break;
 		default:
-			throw new GmailException("Invalid browserName");
+			throw new FrameWorkException("Invalid browserName");
 		}
 		_Driver.manage().window().maximize();
 		return _Driver;
@@ -182,7 +182,7 @@ public class BrowserManager {
 			TCList.add(s[0]);
 			exeStatusList.add("FAILED");
 			exceptionList.add(getModuleName() + "::" + getTestCaseNameFromScript(s[0]) + "::"
-					+ GmailException.failureMessage + "::" + txt);
+					+ FrameWorkException.failureMessage + "::" + txt);
 		}
 
 		else {
@@ -308,7 +308,7 @@ public class BrowserManager {
 	}
 
 	@AfterSuite
-	public void stop() throws GmailException, IOException {
+	public void stop() throws FrameWorkException, IOException {
 
 		if (PropertyReader.getProperty("sendEmail").equals("true")) {
 			SendEmail.sendTestReports("Test Execution Results:" + DateUtils.DateTime(),
@@ -318,7 +318,7 @@ public class BrowserManager {
 
 	}
 
-	public void killProcess(String browserName) throws GmailException {
+	public void killProcess(String browserName) throws FrameWorkException {
 
 		try {
 			switch (browserName) {
@@ -329,17 +329,17 @@ public class BrowserManager {
 				Runtime.getRuntime().exec("taskkill /F /IM geckodriver.exe");
 				break;
 			default:
-				throw new GmailException("Invalid browserName");
+				throw new FrameWorkException("Invalid browserName");
 
 			}
 
 		} catch (IOException ioe) {
-			throw new GmailException(ioe.getMessage());
+			throw new FrameWorkException(ioe.getMessage());
 		}
 
 	}
 
-	public String takeFullSnapShot() throws UnknownHostException, GmailException {
+	public String takeFullSnapShot() throws UnknownHostException, FrameWorkException {
 
 		String fileName = "";
 		File scrFile = null;
@@ -369,7 +369,7 @@ public class BrowserManager {
 		return path;
 	}
 
-	public static int getRandomValue() throws GmailException {
+	public static int getRandomValue() throws FrameWorkException {
 		Random rand = new Random();
 		int r = 1;
 		r = rand.nextInt(9999999);
@@ -377,7 +377,7 @@ public class BrowserManager {
 		return r;
 	}
 
-	public String getModuleName() throws GmailException {
+	public String getModuleName() throws FrameWorkException {
 		String className = this.getClass().getName();
 		String myText = className.replace(".", "%");
 		String s[] = myText.split("%");

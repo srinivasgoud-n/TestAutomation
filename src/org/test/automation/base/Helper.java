@@ -12,7 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.test.automation.exception.GmailException;
+import org.test.automation.exception.FrameWorkException;
 
 /**
  * 
@@ -24,7 +24,7 @@ public class Helper extends BrowserManager {
 	public static int EXPLICIT_TIMEOUT = 30;
 	public static boolean flag = false;
 
-	public static WebElement getelement(By locator) throws GmailException {
+	public static WebElement getelement(By locator) throws FrameWorkException {
 		//Helper.verifyElementLocator(locator);
 		WebElement element = null;
 		WebDriverWait wait = new WebDriverWait(_Driver, 15);
@@ -32,14 +32,14 @@ public class Helper extends BrowserManager {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 			element = _Driver.findElement(locator);
 		} catch (TimeoutException toe) {
-			throw new GmailException("Locator not available: " + locator);
+			throw new FrameWorkException("Locator not available: " + locator);
 		}
 
 		return element;
 
 	}
 
-	public static List<WebElement> getelements(By locator) throws GmailException {
+	public static List<WebElement> getelements(By locator) throws FrameWorkException {
 		List<WebElement> elements = null;
 
 		WebDriverWait wait = new WebDriverWait(_Driver, 5);
@@ -47,28 +47,28 @@ public class Helper extends BrowserManager {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 			elements = _Driver.findElements(locator);
 		} catch (TimeoutException toe) {
-			throw new GmailException("Locator not available: " + locator);
+			throw new FrameWorkException("Locator not available: " + locator);
 		}
 
 		return elements;
 
 	}
 
-	public static void click(By locator) throws GmailException {
+	public static void click(By locator) throws FrameWorkException {
 		getelement(locator).click();
 		waitForPageLoaded();
 	}
 
-	public static void enterText(By locator, String value) throws GmailException {
+	public static void enterText(By locator, String value) throws FrameWorkException {
 		
 		getelement(locator).sendKeys(value);
 	}
 
-	public static boolean isElementDisplayed(By locator) throws GmailException {
+	public static boolean isElementDisplayed(By locator) throws FrameWorkException {
 		return getelement(locator).isDisplayed();
 	}
 
-	public static String getCSSValue(By locator, String attribute) throws GmailException {
+	public static String getCSSValue(By locator, String attribute) throws FrameWorkException {
 		return getelement(locator).getCssValue(attribute);
 	}
 
@@ -149,7 +149,7 @@ public class Helper extends BrowserManager {
 		return fs;
 	}
 
-	public static boolean verifyElementLocator(By locator) throws GmailException {
+	public static boolean verifyElementLocator(By locator) throws FrameWorkException {
 
 		boolean flag = false;
 		String by = locator.toString().split(":")[0].trim();
@@ -176,7 +176,7 @@ public class Helper extends BrowserManager {
 		}
 		if(!flag)
 		{
-			throw new GmailException("Locator changed. Looking for "+locator+ ", But its not available in DOM");
+			throw new FrameWorkException("Locator changed. Looking for "+locator+ ", But its not available in DOM");
 		}
 
 		return flag;

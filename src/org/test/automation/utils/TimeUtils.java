@@ -7,7 +7,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 import org.test.automation.base.BrowserManager;
-import org.test.automation.exception.GmailException;
+import org.test.automation.exception.FrameWorkException;
 
 
 /**
@@ -18,7 +18,7 @@ import org.test.automation.exception.GmailException;
 public class TimeUtils extends BrowserManager {
 	
 	
-	public static String calculateTimeDifference(String startDate, String endDate) throws GmailException, ParseException {
+	public static String calculateTimeDifference(String startDate, String endDate) throws FrameWorkException, ParseException {
 
 		Date d1 = null;
 		Date d2 = null;
@@ -53,7 +53,7 @@ public class TimeUtils extends BrowserManager {
 	}
 
 	public static String calculateTotalTimeTaken(ArrayList<String> startDateList, ArrayList<String> endDateList)
-			throws GmailException, ParseException {
+			throws FrameWorkException, ParseException {
 
 		Date d1 = null;
 		Date d2 = null;

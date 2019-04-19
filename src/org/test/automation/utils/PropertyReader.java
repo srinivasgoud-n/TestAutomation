@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 import org.test.automation.base.BrowserManager;
-import org.test.automation.exception.GmailException;
+import org.test.automation.exception.FrameWorkException;
 
 
 /**
@@ -17,14 +17,14 @@ import org.test.automation.exception.GmailException;
 public class PropertyReader extends BrowserManager {
 	
 	
-	public static String getProperty(String key) throws FileNotFoundException, GmailException {
+	public static String getProperty(String key) throws FileNotFoundException, FrameWorkException {
 		props = loadProperties();
 		String prop = "";
 		prop = props.getProperty(key);
 		return prop;
 	}
 
-	public static Properties loadProperties() throws GmailException, FileNotFoundException {
+	public static Properties loadProperties() throws FrameWorkException, FileNotFoundException {
 
 		String currentDir = "";
 		String folder = "Properties";

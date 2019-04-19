@@ -6,11 +6,16 @@ package org.test.automation.exception;
  * @author Srinivas Goud Nakka
  *
  */
-public class GmailException extends Exception {
+public class FrameWorkException extends Exception {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	
 	public static String failureMessage = "";
 	
-	public GmailException(String message)
+	public FrameWorkException(String message)
 	{
 		super(message);
 		

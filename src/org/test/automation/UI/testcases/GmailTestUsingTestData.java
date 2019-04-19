@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 import org.openqa.selenium.By;
 import org.test.automation.base.BrowserManager;
-import org.test.automation.exception.GmailException;
+import org.test.automation.exception.FrameWorkException;
 import org.test.automation.utils.ReadExcelData;
 import org.test.automation.utils.UserData;
 import org.testng.Assert;
@@ -24,7 +24,7 @@ public class GmailTestUsingTestData extends BrowserManager {
 	private GmailComposePage gmailCompose = new GmailComposePage();
 
 	@Test()
-	public void TC_testGmailLogin() throws InterruptedException, GmailException, FileNotFoundException {
+	public void TC_testGmailLogin() throws InterruptedException, FrameWorkException, FileNotFoundException {
 
 		try {
 
@@ -46,7 +46,7 @@ public class GmailTestUsingTestData extends BrowserManager {
 	}
 
 	@Test()
-	public void TC_testGmailCompose() throws InterruptedException, GmailException, FileNotFoundException {
+	public void TC_testGmailCompose() throws InterruptedException, FrameWorkException, FileNotFoundException {
 
 		TC_testGmailLogin();
 		gmailCompose.clickComposeButton();

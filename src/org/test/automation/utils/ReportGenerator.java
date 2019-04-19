@@ -10,7 +10,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 import org.test.automation.base.BrowserManager;
-import org.test.automation.exception.GmailException;
+import org.test.automation.exception.FrameWorkException;
 
 
 /**
@@ -24,7 +24,7 @@ public class ReportGenerator extends BrowserManager {
 			ArrayList<Integer> totalList2, ArrayList<Integer> passedList2, ArrayList<Integer> failedList2,
 			ArrayList<Integer> skippedList2, int pc, int fc, int sc, int total, ArrayList<String> totalTimeList2,
 			String reportPath, ArrayList<String> exceptionList, ArrayList<String> snapShotList2, String totalTimeTaken,
-			String msg, String tcDetails) throws GmailException, IOException {
+			String msg, String tcDetails) throws FrameWorkException, IOException {
 
 		StringBuilder sb = new StringBuilder();
 
@@ -364,7 +364,7 @@ public class ReportGenerator extends BrowserManager {
 	}
 
 	public static String TCwriteToHTML(String moduleName, ArrayList<String> tcNameList,
-			ArrayList<String> executionStatusList) throws GmailException, IOException {
+			ArrayList<String> executionStatusList) throws FrameWorkException, IOException {
 
 		StringBuilder sb = new StringBuilder();
 
@@ -453,7 +453,7 @@ public class ReportGenerator extends BrowserManager {
 		return sb.toString();
 	}
 
-	public static String sendGreetings(String imageFilePath, String message) throws GmailException, IOException {
+	public static String sendGreetings(String imageFilePath, String message) throws FrameWorkException, IOException {
 
 		StringBuilder sb = new StringBuilder();
 
@@ -500,7 +500,7 @@ public class ReportGenerator extends BrowserManager {
 		return sb.toString();
 	}
 	
-	public static void main(String args[]) throws GmailException, IOException
+	public static void main(String args[]) throws FrameWorkException, IOException
 	{
 		sendGreetings(CURRENTDIR+fs+"Files"+fs+"Morning_Wishes_Quotes_Pics_flowers.jpg", TimeUtils.getMessageBasedonTime()+" Have a Nice "+DateUtils.getDay_Week());
 	}

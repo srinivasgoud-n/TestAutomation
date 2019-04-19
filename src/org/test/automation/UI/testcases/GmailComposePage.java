@@ -3,7 +3,7 @@ package org.test.automation.UI.testcases;
 import org.openqa.selenium.By;
 import org.test.automation.base.BrowserManager;
 import org.test.automation.base.Helper;
-import org.test.automation.exception.GmailException;
+import org.test.automation.exception.FrameWorkException;
 
 
 /**
@@ -25,34 +25,34 @@ public class GmailComposePage extends BrowserManager {
 
 	By successMessage = By.id("link_vsm");
 
-	public void clickComposeButton() throws GmailException {
+	public void clickComposeButton() throws FrameWorkException {
 
 		log.info("click compose button");
 		Helper.click(composeButton);
 
 	}
 
-	public void enterEmailIDsInToField() throws GmailException {
+	public void enterEmailIDsInToField() throws FrameWorkException {
 		log.info("enter emailIDs in To field");
 		Helper.enterText(toFieldTextBox, "aakula.sudhakar@gmail.com");
 	}
 
-	public void enterSubject() throws GmailException {
+	public void enterSubject() throws FrameWorkException {
 		log.info("enter subject");
 		Helper.enterText(subjectTextBox, "hi");
 	}
 
-	public void enterEmailBody() throws GmailException {
+	public void enterEmailBody() throws FrameWorkException {
 		log.info("enter email body");
 		Helper.enterText(mailBody, "hi");
 	}
 
-	public void clickSendButton() throws GmailException {
+	public void clickSendButton() throws FrameWorkException {
 		log.info("click send button");
 		Helper.click(sendButton);
 	}
 
-	public boolean verifySuccessMessage() throws GmailException {
+	public boolean verifySuccessMessage() throws FrameWorkException {
 		log.info("Check whether success message is displayed");
 		return Helper.isElementDisplayed(successMessage);
 	}

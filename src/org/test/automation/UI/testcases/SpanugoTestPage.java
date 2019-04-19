@@ -3,7 +3,7 @@ package org.test.automation.UI.testcases;
 import org.openqa.selenium.By;
 import org.test.automation.base.BrowserManager;
 import org.test.automation.base.Helper;
-import org.test.automation.exception.GmailException;
+import org.test.automation.exception.FrameWorkException;
 import org.testng.annotations.Test;
 
 public class SpanugoTestPage extends BrowserManager {
@@ -14,7 +14,7 @@ public class SpanugoTestPage extends BrowserManager {
 	private By dashboardPage = By.xpath("//app-dashboard");
 
 	@Test
-	public void login() throws GmailException {
+	public void login() throws FrameWorkException {
 		_Driver.get("https://service-qa.np.spanugo.com/engtest/");
 		Helper.waitForPageLoaded();
 		_Driver.findElement(loginUserName).sendKeys("admin");

@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import org.test.automation.exception.GmailException;
+import org.test.automation.exception.FrameWorkException;
 
 
 /**
@@ -18,7 +18,7 @@ import org.test.automation.exception.GmailException;
  */
 public class GenerateTestNGTestSuite {
 	
-	public static void generateTestSuite(String className,String suiteName,String testName) throws GmailException, ClassNotFoundException, IOException {
+	public static void generateTestSuite(String className,String suiteName,String testName) throws FrameWorkException, ClassNotFoundException, IOException {
 		Class classTemp = Class.forName(className);
 
 		Method[] methods = classTemp.getDeclaredMethods();
@@ -46,7 +46,7 @@ public class GenerateTestNGTestSuite {
 	}
 
 	private static void createTestSuite(String className, ArrayList<String> list_Methods, String suiteName, String testName)
-			throws GmailException, IOException {
+			throws FrameWorkException, IOException {
 
 		String txt = className.replace(".", "&");
 		String txt1[] = txt.split("&");
@@ -87,7 +87,7 @@ public class GenerateTestNGTestSuite {
 		System.out.println("Done");
 	}
 	
-	public static void main(String args[]) throws ClassNotFoundException, GmailException, IOException
+	public static void main(String args[]) throws ClassNotFoundException, FrameWorkException, IOException
 	{
 		generateTestSuite("org.test.automation.testcases.AutomateTestSite","TestSite Suite","AutomateTestSite Testcase");
 	}

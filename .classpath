@@ -37,5 +37,20 @@
 	<classpathentry exported="true" kind="lib" path="Libs/apache-commons-lang.jar"/>
 	<classpathentry exported="true" kind="lib" path="Libs/ezmorph-1.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="Libs/commons-beanutils-1.8.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/ant-1.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/ant-launcher-1.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/bsh-2.0b4.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/bson-3.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/extentreports-2.41.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/freemarker-2.3.23.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/hamcrest-core-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/jcommander-1.48.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/jsoup-1.8.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/junit-4.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/mongodb-driver-3.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/snakeyaml-1.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="Libs/testng-6.9.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -400,13 +400,13 @@ public class BrowserManager {
 	public static String getBrowserType() {
 		String browserType = "";
 		if (_Driver instanceof ChromeDriver) {
-			browserType = BrowserTYPE.CHROME.toString();
+			browserType = BrowserTYPE.CHROME;
 		} else if (_Driver instanceof InternetExplorerDriver) {
-			browserType = BrowserTYPE.INTERNETEXPLORER.toString();
+			browserType = BrowserTYPE.INTERNETEXPLORER;
 		} else if (_Driver instanceof FirefoxDriver) {
-			browserType = BrowserTYPE.FIREFOX.toString();
+			browserType = BrowserTYPE.FIREFOX;
 		} else if (_Driver instanceof SafariDriver) {
-			browserType = BrowserTYPE.SAFARI.toString();
+			browserType = BrowserTYPE.SAFARI;
 		}
 		System.out.println(browserType);
 		return browserType;

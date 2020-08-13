@@ -1,56 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry exported="true" kind="lib" path="Libs/activation.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/commons-codec-1.10.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/commons-collections4-4.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/commons-el-1.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/commons-exec-1.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/commons-io-2.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/commons-jxpath-1.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/commons-lang3-3.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/commons-logging-1.1.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/jcommon-1.0.17.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/jfreechart-1.0.1-demo.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/jfreechart-1.0.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/log4j.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/mail.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/mailapi.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/poi-3.17.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/poi-examples-3.17.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/poi-ooxml-3.17.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/poi-ooxml-schemas-3.17.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/poi-scratchpad-3.17.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/selenium-firefox-driver-2.4.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/selenium-java-2.53.1-srcs.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/selenium-java-2.53.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/selenium-server-standalone-2.45.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/xmlbeans-5.1.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/rest-assured-1.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/groovy-all-3.0.0-alpha-4-groovydoc.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/groovy-2.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/http-builder-0.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/json-lib-2.2.3-jdk15.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/xml-resolver-1.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/groovy-xml-2.4.7.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/apache-commons-lang.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/ezmorph-1.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/commons-beanutils-1.8.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/ant-1.7.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/ant-launcher-1.7.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/bsh-2.0b4.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/bson-3.0.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/extentreports-2.41.2.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/freemarker-2.3.23.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/hamcrest-core-1.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/jcommander-1.48.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/jsoup-1.8.3.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/junit-4.10.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/mongodb-driver-3.0.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/mongodb-driver-core-3.0.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/snakeyaml-1.15.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/sqlite-jdbc-3.8.11.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="Libs/testng-6.9.9.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>

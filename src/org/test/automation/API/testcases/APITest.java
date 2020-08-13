@@ -2,10 +2,6 @@ package org.test.automation.API.testcases;
 
 import org.testng.annotations.Test;
 
-import com.jayway.restassured.RestAssured;
-import com.jayway.restassured.response.Response;
-import com.jayway.restassured.response.ResponseBody;
-import com.jayway.restassured.specification.RequestSpecification;
 
 @Test
 public class APITest

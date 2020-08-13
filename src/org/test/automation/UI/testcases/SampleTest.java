@@ -27,7 +27,7 @@ public class SampleTest extends BrowserManager {
 
 	@Test
 	public void testMethod() throws UnknownHostException, FrameWorkException {
-		reportHtml = "ExtentReports/" + this.getClass().getName() + "-" + DateUtils.DateTime() + ".html";
+		reportHtml = "ExtentReports/" + this.getClass().getName() + "-" + DateUtils.getCurrentTimeStamp() + ".html";
 		extent = new ExtentReports(reportHtml, false);
 		_Driver.get("https://service-qa.np.spanugo.com/innominds");
 

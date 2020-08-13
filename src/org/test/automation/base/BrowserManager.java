@@ -108,7 +108,7 @@ public class BrowserManager {
 		}
 
 		PropertyConfigurator.configure("log4j.properties");
-		startTime = DateUtils.DateTime();
+		startTime = DateUtils.getCurrentTimeStamp();
 		startTimeList.add(startTime);
 		log.info("Execution Started at " + startTime);
 	}
@@ -267,7 +267,7 @@ public class BrowserManager {
 			baseURL = PropertyReader.getProperty("baseURL");
 		}
 
-		endTime = DateUtils.DateTime();
+		endTime = DateUtils.getCurrentTimeStamp();
 		endTimeList.add(endTime);
 
 		log.info("Execution Completed at: " + endTime);
@@ -288,7 +288,7 @@ public class BrowserManager {
 				reportPath, exceptionList, snapShotList, totalTimeTaken, TimeUtils.getMessageBasedonTime(), tcDetails);
 
 		String destpath = "";
-		destpath = CURRENTDIR + fs+"TestAutomationReports" +fs+ DateUtils.DateTime();
+		destpath = CURRENTDIR + fs+"TestAutomationReports" +fs+ DateUtils.getCurrentTimeStamp();
 
 		FileUtils.copyDirectory(new File(System.getProperty("user.dir") + fs+"Snapshots"+fs), new File(destpath));
 		log.info("Folder: " + System.getProperty("user.dir") + fs+"Reports Copied to " + destpath);
@@ -311,7 +311,7 @@ public class BrowserManager {
 	public void stop() throws FrameWorkException, IOException {
 
 		if (PropertyReader.getProperty("sendEmail").equals("true")) {
-			SendEmail.sendTestReports("Test Execution Results:" + DateUtils.DateTime(),
+			SendEmail.sendTestReports("Test Execution Results:" + DateUtils.getCurrentTimeStamp(),
 					PropertyReader.getProperty("ToField"), PropertyReader.getProperty("CCField"),
 					PropertyReader.getProperty("BCCField"));
 		}

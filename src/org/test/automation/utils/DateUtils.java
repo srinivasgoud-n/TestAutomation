@@ -18,7 +18,7 @@ public class DateUtils {
 	private static SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT_NOW);
 	
 	
-	public static String DateTime() {
+	public static String getCurrentTimeStamp() {
 		Calendar cal = Calendar.getInstance();
 		Date date = cal.getTime();
 

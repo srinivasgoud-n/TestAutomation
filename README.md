@@ -1,1 +1,2 @@
-# Test automation using Selenium and Java, TestNG
+# UI Automation using Selenium and Java, TestNG
+#API Automation using RestAssured

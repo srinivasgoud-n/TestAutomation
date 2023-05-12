@@ -12,7 +12,6 @@ import java.util.NoSuchElementException;
 import org.test.automation.base.BrowserManager;
 import org.test.automation.exception.FrameWorkException;
 
-
 /**
  * 
  * @author Srinivas Goud Nakka
@@ -348,11 +347,11 @@ public class ReportGenerator extends BrowserManager {
 		sb.append("</body>");
 		sb.append("</html>");
 
-		//System.out.println(sb.toString());
-		
+		// System.out.println(sb.toString());
+
 		System.out.println(System.getProperty("user.dir"));
 
-		File file = new File(System.getProperty("user.dir") + fs+"TestReport.html"+DateUtils.getCurrentTimeStamp());
+		File file = new File(System.getProperty("user.dir") + fs + "TestReport.html" + DateUtils.getCurrentTimeStamp());
 		if (!file.exists()) {
 			file.createNewFile();
 		}
@@ -404,18 +403,16 @@ public class ReportGenerator extends BrowserManager {
 			sb.append("&nbsp;&nbsp;&nbsp;&nbsp;");
 			sb.append(tc.next());
 			sb.append("</td>");
-			
+
 			String _Status = "";
-			try
-			{
+			try {
 				_Status = status.next();
-			}
-			catch(NoSuchElementException nse)
-			{
-				
+			} catch (NoSuchElementException nse) {
+
 			}
 
-			//System.out.println("::" + _Status + "::" + TCPASSED + "::" + TCFAILED + "::" + TCSKIPPED);
+			// System.out.println("::" + _Status + "::" + TCPASSED + "::" + TCFAILED + "::"
+			// + TCSKIPPED);
 
 			if (_Status.equals(TCPASSED)) {
 				sb.append(
@@ -441,7 +438,7 @@ public class ReportGenerator extends BrowserManager {
 
 		// System.out.println(sb.toString());
 
-		File file = new File(System.getProperty("user.dir") + fs+"TCTestReport.html");
+		File file = new File(System.getProperty("user.dir") + fs + "TCTestReport.html");
 		if (!file.exists()) {
 			file.createNewFile();
 		}
@@ -468,17 +465,16 @@ public class ReportGenerator extends BrowserManager {
 		sb.append("</td>");
 
 		sb.append("</tr>");
-		
+
 		sb.append("<br>");
 		sb.append("<br>");
 		sb.append("<br>");
 		sb.append("<br>");
 		sb.append("<br>");
 		sb.append("<br>");
-		
+
 		sb.append("<tr>");
-		sb.append(
-				"<td style = \"width:15%\">");
+		sb.append("<td style = \"width:15%\">");
 		sb.append("<img src=\"cid:AbcXyz123\">");
 		sb.append("</td>");
 		sb.append("</tr>");
@@ -488,7 +484,7 @@ public class ReportGenerator extends BrowserManager {
 
 		// System.out.println(sb.toString());
 
-		File file = new File(System.getProperty("user.dir") + fs+"Greetings.html");
+		File file = new File(System.getProperty("user.dir") + fs + "Greetings.html");
 		if (!file.exists()) {
 			file.createNewFile();
 		}
@@ -497,12 +493,15 @@ public class ReportGenerator extends BrowserManager {
 		BufferedWriter bw = new BufferedWriter(fw);
 		bw.write(sb.toString());
 		bw.close();
+		System.out.println("Done!");
 		return sb.toString();
+		
 	}
-	
-	public static void main(String args[]) throws FrameWorkException, IOException
-	{
-		sendGreetings(CURRENTDIR+fs+"Files"+fs+"Morning_Wishes_Quotes_Pics_flowers.jpg", TimeUtils.getMessageBasedonTime()+" Have a Nice "+DateUtils.getDay_Week());
+
+	public static void main(String args[]) throws FrameWorkException, IOException {
+//		sendGreetings(CURRENTDIR+fs+"Files"+fs+"Morning_Wishes_Quotes_Pics_flowers.jpg", TimeUtils.getMessageBasedonTime()+" Have a Nice "+DateUtils.getDay_Week());
+		sendGreetings(CURRENTDIR + fs + "Files" + fs + "123.png",
+				TimeUtils.getMessageBasedonTime() + " Have a Nice " + DateUtils.getDay_Week());
 	}
 
 }

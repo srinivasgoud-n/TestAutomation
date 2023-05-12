@@ -2,6 +2,7 @@ package org.test.automation.base;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -21,13 +22,13 @@ import org.test.automation.exception.FrameWorkException;
  */
 public class Helper extends BrowserManager {
 
-	public static int EXPLICIT_TIMEOUT = 30;
+	public static Duration EXPLICIT_TIMEOUT = Duration.ofSeconds(30);
 	public static boolean flag = false;
 
 	public static WebElement getelement(By locator) throws FrameWorkException {
 		//Helper.verifyElementLocator(locator);
 		WebElement element = null;
-		WebDriverWait wait = new WebDriverWait(_Driver, 15);
+		WebDriverWait wait = new WebDriverWait(_Driver, Duration.ofSeconds(15));
 		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 			element = _Driver.findElement(locator);
@@ -42,7 +43,7 @@ public class Helper extends BrowserManager {
 	public static List<WebElement> getelements(By locator) throws FrameWorkException {
 		List<WebElement> elements = null;
 
-		WebDriverWait wait = new WebDriverWait(_Driver, 5);
+		WebDriverWait wait = new WebDriverWait(_Driver, Duration.ofSeconds(5));
 		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 			elements = _Driver.findElements(locator);
@@ -141,7 +142,7 @@ public class Helper extends BrowserManager {
 	public static String getFileSeparator() {
 		String OS = System.getProperty("os.name");
 		String fs = "";
-		if (OS.equalsIgnoreCase("WINDOWS")) {
+		if (OS.contains("WINDOWS")||OS.contains("Windows")) {
 			fs = "\\";
 		} else if (OS.equalsIgnoreCase("MAC") || OS.equalsIgnoreCase("LINUX")) {
 			fs = "/";

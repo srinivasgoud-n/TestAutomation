@@ -135,7 +135,7 @@ public class BrowserManager {
 		switch (browserName) {
 		case "CHROME":
 			// killProcess("CHROME");
-			if (OS_NAME.equalsIgnoreCase("WINDOWS")) {
+			if (OS_NAME.contains("WINDOWS")) {
 				log.info("Executing on Windows machine...");
 				System.setProperty("webdriver.chrome.driver", CURRENTDIR + fs+ "ExecutableDrivers"+fs+"chromedriver.exe");
 			} else if (OS_NAME.equalsIgnoreCase("MAC")) {

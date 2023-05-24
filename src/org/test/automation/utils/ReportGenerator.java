@@ -179,6 +179,9 @@ public class ReportGenerator extends BrowserManager {
 
 		sb.append("<tr>");
 		sb.append("<td>");
+		sb.append("<br>");
+		sb.append("<br>");
+		sb.append("<br>");
 		sb.append("<font color= \"Green\">");
 		sb.append("<b>");
 		sb.append("Test Summary : ");
@@ -303,6 +306,9 @@ public class ReportGenerator extends BrowserManager {
 		sb.append("<font color= \"Green\">");
 		sb.append("<br>");
 		sb.append("<b>");
+		sb.append("<br>");
+		sb.append("<br>");
+		sb.append("<br>");
 		sb.append("Test Execution Details : ");
 		sb.append("</b>");
 		sb.append("<br>");
@@ -351,7 +357,7 @@ public class ReportGenerator extends BrowserManager {
 
 		System.out.println(System.getProperty("user.dir"));
 
-		File file = new File(System.getProperty("user.dir") + fs + "TestReport.html" + DateUtils.getCurrentTimeStamp());
+		File file = new File(System.getProperty("user.dir") + fs + "TestReport_" + DateUtils.getCurrentTimeStamp()+".html");
 		if (!file.exists()) {
 			file.createNewFile();
 		}

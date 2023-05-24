@@ -57,7 +57,7 @@ public class Helper extends BrowserManager {
 
 	public static void click(By locator) throws FrameWorkException {
 		getelement(locator).click();
-		waitForPageLoaded();
+		waitForPagetoLoad();
 	}
 
 	public static void enterText(By locator, String value) throws FrameWorkException {
@@ -116,7 +116,7 @@ public class Helper extends BrowserManager {
 		}
 	}
 
-	public static void waitForPageLoaded() {
+	public static void waitForPagetoLoad() {
 		try {
 			// 0.5 second delay beyond which we could say slow performance
 			Thread.sleep(500);
@@ -132,7 +132,7 @@ public class Helper extends BrowserManager {
 
 	public static void navigateBack() {
 		_Driver.navigate().back();
-		waitForPageLoaded();
+		waitForPagetoLoad();
 	}
 
 	public static String getOSType() {

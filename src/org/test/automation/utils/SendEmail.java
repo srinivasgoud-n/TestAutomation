@@ -72,4 +72,9 @@ public class SendEmail extends BrowserManager {
 			throw new RuntimeException(e);
 		}
 	}
+	
+	public static void main(String args[])
+	{
+		sendTestReports("Testing", "nakkasrinivas001@gmail.com", "", "");
+	}
 }

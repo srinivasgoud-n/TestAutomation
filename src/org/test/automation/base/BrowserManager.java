@@ -39,8 +39,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-
-
 /**
  * 
  * @author Srinivas Goud Nakka
@@ -96,8 +94,8 @@ public class BrowserManager {
 	@BeforeClass
 	public void init() throws IOException {
 
-		File logsFolder = new File(CURRENTDIR + "//logs");
-		File reportsDir = new File(CURRENTDIR + "/Snapshots");
+		File logsFolder = new File(CURRENTDIR + fs + "logs");
+		File reportsDir = new File(CURRENTDIR + fs + "Snapshots");
 
 		if (!logsFolder.exists()) {
 			logsFolder.mkdirs();
@@ -119,14 +117,14 @@ public class BrowserManager {
 
 		startBrowser("CHROME");
 //		navigateToURL(PropertyReader.getProperty("baseURL"));
-		navigateToURL("file:///home/snakka/Downloads/SeleniumAutomation/TestAutomation/user.html");
+		navigateToURL(CURRENTDIR + fs + "user.html");
 
 	}
 
 	protected static void navigateToURL(String url) {
 
 		_Driver.get(url);
-		Helper.waitForPageLoaded();
+		Helper.waitForPagetoLoad();
 
 	}
 
@@ -137,13 +135,16 @@ public class BrowserManager {
 			// killProcess("CHROME");
 			if (OS_NAME.contains("WINDOWS")) {
 				log.info("Executing on Windows machine...");
-				System.setProperty("webdriver.chrome.driver", CURRENTDIR + fs+ "ExecutableDrivers"+fs+"chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver",
+						CURRENTDIR + fs + "ExecutableDrivers" + fs + "chromedriver.exe");
 			} else if (OS_NAME.equalsIgnoreCase("MAC")) {
 				log.info("Executing on MAC machine...");
-				System.setProperty("webdriver.chrome.driver", CURRENTDIR + fs+"ExecutableDrivers"+fs+"chromedriver_MAC");
+				System.setProperty("webdriver.chrome.driver",
+						CURRENTDIR + fs + "ExecutableDrivers" + fs + "chromedriver_MAC");
 			} else if (OS_NAME.equalsIgnoreCase("LINUX")) {
 				log.info("Executing on Linux machine...");
-				System.setProperty("webdriver.chrome.driver", CURRENTDIR + fs+"ExecutableDrivers"+fs+"chromedriver_Linux");
+				System.setProperty("webdriver.chrome.driver",
+						CURRENTDIR + fs + "ExecutableDrivers" + fs + "chromedriver_Linux");
 			}
 			log.info("Launching Chrome Browser...");
 			_Driver = new ChromeDriver();
@@ -151,7 +152,8 @@ public class BrowserManager {
 			break;
 		case "FIREFOX":
 			// killProcess("FIREFOX");
-			System.setProperty("webdriver.gecko.driver", CURRENTDIR + fs+"ExecutableDrivers"+fs+"geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver",
+					CURRENTDIR + fs + "ExecutableDrivers" + fs + "geckodriver.exe");
 
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			capabilities.setBrowserName("firefox");
@@ -288,21 +290,21 @@ public class BrowserManager {
 				reportPath, exceptionList, snapShotList, totalTimeTaken, TimeUtils.getMessageBasedonTime(), tcDetails);
 
 		String destpath = "";
-		destpath = CURRENTDIR + fs+"TestAutomationReports" +fs+ DateUtils.getCurrentTimeStamp();
+		destpath = CURRENTDIR + fs + "TestAutomationReports" + fs + DateUtils.getCurrentTimeStamp();
 
-		FileUtils.copyDirectory(new File(System.getProperty("user.dir") + fs+"Snapshots"+fs), new File(destpath));
-		log.info("Folder: " + System.getProperty("user.dir") + fs+"Reports Copied to " + destpath);
-		FileUtils.copyFileToDirectory(new File(System.getProperty("user.dir") + fs+"TestReport.html"+fs),
+		FileUtils.copyDirectory(new File(System.getProperty("user.dir") + fs + "Snapshots" + fs), new File(destpath));
+		log.info("Folder: " + System.getProperty("user.dir") + fs + "Reports Copied to " + destpath);
+		FileUtils.copyFileToDirectory(new File(System.getProperty("user.dir") + fs + "TestReport.html" + fs),
 				new File(destpath));
 
-		log.info("File: " + CURRENTDIR + fs+"TestReport.html"+fs+" Copied to " + destpath);
+		log.info("File: " + CURRENTDIR + fs + "TestReport.html" + fs + " Copied to " + destpath);
 		try {
-			FileUtils.copyFileToDirectory(new File(System.getProperty("user.dir") + fs+"testng-failed.xml"+fs),
+			FileUtils.copyFileToDirectory(new File(System.getProperty("user.dir") + fs + "testng-failed.xml" + fs),
 					new File(destpath));
 
-			log.info("File: " + System.getProperty("user.dir") + fs+"testng-failed.xml Copied to " + destpath);
+			log.info("File: " + System.getProperty("user.dir") + fs + "testng-failed.xml Copied to " + destpath);
 		} catch (FileNotFoundException fnf) {
-			System.out.println(System.getProperty("user.dir") + fs+"testng-failed.xml does not exist");
+			System.out.println(System.getProperty("user.dir") + fs + "testng-failed.xml does not exist");
 		}
 
 	}

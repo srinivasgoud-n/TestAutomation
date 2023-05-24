@@ -16,11 +16,11 @@ public class SpanugoTestPage extends BrowserManager {
 	@Test
 	public void login() throws FrameWorkException {
 		_Driver.get("https://service-qa.np.spanugo.com/engtest/");
-		Helper.waitForPageLoaded();
+		Helper.waitForPagetoLoad();
 		_Driver.findElement(loginUserName).sendKeys("admin");
 		_Driver.findElement(loginPassword).sendKeys("admin");
 		_Driver.findElement(loginSubmitBtn).click();
-		Helper.waitForPageLoaded();
+		Helper.waitForPagetoLoad();
 		Helper.getelement(dashboardPage);
 	}
 

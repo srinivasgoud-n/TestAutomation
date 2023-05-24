@@ -17,5 +17,15 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/snakka/.m2/repository/io/rest-assured/json-path/4.3.1/json-path-4.3.1.jar" sourcepath="C:/Users/snakka/.m2/repository/io/rest-assured/json-path/4.3.1/json-path-4.3.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="io.rest-assured"/>
+			<attribute name="maven.artifactId" value="json-path"/>
+			<attribute name="maven.version" value="4.3.1"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

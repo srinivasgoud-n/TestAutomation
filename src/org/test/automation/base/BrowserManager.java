@@ -7,7 +7,6 @@ import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Properties;
-import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -28,6 +27,7 @@ import org.test.automation.utils.FileUtility;
 import org.test.automation.utils.PropertyReader;
 import org.test.automation.utils.ReportGenerator;
 import org.test.automation.utils.SendEmail;
+import org.test.automation.utils.StringUtils;
 import org.test.automation.utils.TimeUtils;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
@@ -52,7 +52,11 @@ public class BrowserManager {
 	protected static String CURRENTDIR = System.getProperty("user.dir");
 	public static Logger log = Logger.getLogger(BrowserManager.class);
 	protected static Properties props;
-	private static String MODULENAME = "";
+	protected static String MODULENAME = "";
+	protected static String timestamp = DateUtils.getCurrentTimeStamp();
+	protected static File reportName = new File(
+			System.getProperty("user.dir") + fs + "TestAutomationReports" + fs + "TestReport_" + timestamp + ".html");
+	protected static final String destpath = CURRENTDIR + fs + "TestAutomationReports" + fs + timestamp;
 
 	protected static final String TCPASSED = "PASSED";
 	protected static final String TCFAILED = "FAILED";
@@ -133,10 +137,10 @@ public class BrowserManager {
 		switch (browserName) {
 		case "CHROME":
 			// killProcess("CHROME");
-			if (OS_NAME.contains("WINDOWS")) {
+			if (OS_NAME.contains("WINDOWS") || OS_NAME.contains("Windows")) {
 				log.info("Executing on Windows machine...");
-				System.setProperty("webdriver.chrome.driver",
-						CURRENTDIR + fs + "ExecutableDrivers" + fs + "chromedriver.exe");
+//				System.setProperty("webdriver.chrome.driver",
+//						CURRENTDIR + fs + "ExecutableDrivers" + fs + "chromedriver.exe");
 			} else if (OS_NAME.equalsIgnoreCase("MAC")) {
 				log.info("Executing on MAC machine...");
 				System.setProperty("webdriver.chrome.driver",
@@ -183,7 +187,7 @@ public class BrowserManager {
 			log.info("####Test Case FAILED:" + s[0]);
 			TCList.add(s[0]);
 			exeStatusList.add("FAILED");
-			exceptionList.add(getModuleName() + "::" + getTestCaseNameFromScript(s[0]) + "::"
+			exceptionList.add(StringUtils.getModuleName(this.getClass().getName()) + "::" + StringUtils.getTestCaseNameFromScript(s[0]) + "::"
 					+ FrameWorkException.failureMessage + "::" + txt);
 		}
 
@@ -289,15 +293,11 @@ public class BrowserManager {
 				skippedList, totalpassedCount, totalfailedCount, totalskippedCount, grandTotalCount, totalTimeList,
 				reportPath, exceptionList, snapShotList, totalTimeTaken, TimeUtils.getMessageBasedonTime(), tcDetails);
 
-		String destpath = "";
-		destpath = CURRENTDIR + fs + "TestAutomationReports" + fs + DateUtils.getCurrentTimeStamp();
-
 		FileUtils.copyDirectory(new File(System.getProperty("user.dir") + fs + "Snapshots" + fs), new File(destpath));
 		log.info("Folder: " + System.getProperty("user.dir") + fs + "Reports Copied to " + destpath);
-		FileUtils.copyFileToDirectory(new File(System.getProperty("user.dir") + fs + "TestReport.html" + fs),
-				new File(destpath));
+		FileUtils.moveDirectory(reportName, new File(destpath));
 
-		log.info("File: " + CURRENTDIR + fs + "TestReport.html" + fs + " Copied to " + destpath);
+		log.info("File: " + reportName + " moved to " + destpath);
 		try {
 			FileUtils.copyFileToDirectory(new File(System.getProperty("user.dir") + fs + "testng-failed.xml" + fs),
 					new File(destpath));
@@ -352,7 +352,7 @@ public class BrowserManager {
 			snf.printStackTrace();
 			log.info("ERROR" + snf.getMessage());
 		}
-		fileName = "Report_Snapshot_" + getRandomValue() + ".png";
+		fileName = "Report_Snapshot_" + StringUtils.getRandomValue() + ".png";
 		String path = "";
 		path = System.getProperty("user.dir") + fs + "Snapshots" + fs + fileName;
 		if (new File(path).exists()) {
@@ -371,33 +371,7 @@ public class BrowserManager {
 		return path;
 	}
 
-	public static int getRandomValue() throws FrameWorkException {
-		Random rand = new Random();
-		int r = 1;
-		r = rand.nextInt(9999999);
-		System.out.println(r);
-		return r;
-	}
-
-	public String getModuleName() throws FrameWorkException {
-		String className = this.getClass().getName();
-		String myText = className.replace(".", "%");
-		String s[] = myText.split("%");
-		MODULENAME = s[s.length - 1];
-		System.out.println("ModuleName: " + MODULENAME);
-		return MODULENAME;
-	}
-
-	public String getTestCaseNameFromScript(String scriptName) {
-		StringBuffer sb = new StringBuffer();
-		String parts[] = scriptName.split("_");
-		for (int i = 0; i < parts.length; i++) {
-			if (i > 1) {
-				sb.append(parts[i] + " ");
-			}
-		}
-		return sb.toString().toUpperCase();
-	}
+	
 
 	public static String getBrowserType() {
 		String browserType = "";

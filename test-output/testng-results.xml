@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-24T15:03:47 IST" name="Default suite" finished-at="2023-05-24T15:04:34 IST" duration-ms="46471">
+  <suite started-at="2023-08-07T18:25:50 IST" name="Default suite" finished-at="2023-08-07T18:26:11 IST" duration-ms="21314">
     <groups>
     </groups>
-    <test started-at="2023-05-24T15:03:47 IST" name="Default test" finished-at="2023-05-24T15:04:34 IST" duration-ms="46471">
-      <class name="org.test.automation.UI.testcases.AutomateTestSite">
-        <test-method is-config="true" signature="init()[pri:0, instance:org.test.automation.UI.testcases.AutomateTestSite@40005471]" started-at="2023-05-24T15:03:48 IST" name="init" finished-at="2023-05-24T15:03:48 IST" duration-ms="86" status="PASS">
+    <test started-at="2023-08-07T18:25:50 IST" name="Default test" finished-at="2023-08-07T18:26:11 IST" duration-ms="21314">
+      <class name="org.test.automation.UI.testcases.CheckForAppChanges">
+        <test-method is-config="true" signature="init()[pri:0, instance:org.test.automation.UI.testcases.CheckForAppChanges@7530ad9c]" started-at="2023-08-07T18:25:50 IST" name="init" finished-at="2023-08-07T18:25:50 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.test.automation.UI.testcases.AutomateTestSite@40005471]" started-at="2023-05-24T15:03:48 IST" name="setup" finished-at="2023-05-24T15:03:55 IST" duration-ms="7140" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.test.automation.UI.testcases.CheckForAppChanges@7530ad9c]" started-at="2023-08-07T18:25:50 IST" name="setup" finished-at="2023-08-07T18:25:55 IST" duration-ms="5121" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,49 +22,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_testCheckboxes()[pri:0, instance:org.test.automation.UI.testcases.AutomateTestSite@40005471]" started-at="2023-05-24T15:03:55 IST" name="TC_testCheckboxes" finished-at="2023-05-24T15:04:14 IST" duration-ms="19327" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_testCheckboxes -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:org.test.automation.UI.testcases.AutomateTestSite@40005471]" started-at="2023-05-24T15:04:14 IST" name="tearDown" finished-at="2023-05-24T15:04:14 IST" duration-ms="173" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC_testCheckboxes status=SUCCESS method=AutomateTestSite.TC_testCheckboxes()[pri:0, instance:org.test.automation.UI.testcases.AutomateTestSite@40005471] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@3968bc60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.test.automation.UI.testcases.AutomateTestSite@40005471]" started-at="2023-05-24T15:04:14 IST" name="setup" finished-at="2023-05-24T15:04:17 IST" duration-ms="2471" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="TC_testFileUpload()[pri:0, instance:org.test.automation.UI.testcases.AutomateTestSite@40005471]" started-at="2023-05-24T15:04:17 IST" name="TC_testFileUpload" finished-at="2023-05-24T15:04:33 IST" duration-ms="16338" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="validateAppChanges()[pri:0, instance:org.test.automation.UI.testcases.CheckForAppChanges@7530ad9c]" started-at="2023-08-07T18:25:55 IST" name="validateAppChanges" finished-at="2023-08-07T18:26:10 IST" duration-ms="15424" status="SKIP">
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[expected [false] but found [true]]]>
+              <![CDATA[Skipping test execution...]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertFalse(Assert.java:67)
-at org.testng.Assert.assertFalse(Assert.java:77)
-at org.test.automation.UI.testcases.AutomateTestSite.TC_testFileUpload(AutomateTestSite.java:25)
+              <![CDATA[org.testng.SkipException: Skipping test execution...
+at org.test.automation.UI.testcases.CheckForAppChanges.validateAppChanges(CheckForAppChanges.java:20)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -95,42 +60,79 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_testFileUpload -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:org.test.automation.UI.testcases.AutomateTestSite@40005471]" started-at="2023-05-24T15:04:33 IST" name="tearDown" finished-at="2023-05-24T15:04:33 IST" duration-ms="295" status="PASS">
+        </test-method> <!-- validateAppChanges -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:org.test.automation.UI.testcases.CheckForAppChanges@7530ad9c]" started-at="2023-08-07T18:26:10 IST" name="tearDown" finished-at="2023-08-07T18:26:11 IST" duration-ms="212" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_testFileUpload status=FAILURE method=AutomateTestSite.TC_testFileUpload()[pri:0, instance:org.test.automation.UI.testcases.AutomateTestSite@40005471] output={null}]]]>
+                <![CDATA[[TestResult name=validateAppChanges status=SKIP method=CheckForAppChanges.validateAppChanges()[pri:0, instance:org.test.automation.UI.testcases.CheckForAppChanges@7530ad9c] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@3968bc60]]>
+                <![CDATA[org.testng.TestRunner@3ad4a7d6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="prepareTestReport(org.testng.ITestContext)[pri:0, instance:org.test.automation.UI.testcases.AutomateTestSite@40005471]" started-at="2023-05-24T15:04:33 IST" name="prepareTestReport" finished-at="2023-05-24T15:04:34 IST" duration-ms="582" status="PASS">
+        <test-method is-config="true" signature="prepareTestReport(org.testng.ITestContext)[pri:0, instance:org.test.automation.UI.testcases.CheckForAppChanges@7530ad9c]" started-at="2023-08-07T18:26:11 IST" name="prepareTestReport" finished-at="2023-08-07T18:26:11 IST" duration-ms="439" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3968bc60]]>
+                <![CDATA[org.testng.TestRunner@3ad4a7d6]]>
               </value>
             </param>
           </params>
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Source 'C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\TestReport_07-08-2023-06-25-50.html' is not a directory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Source 'C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\TestReport_07-08-2023-06-25-50.html' is not a directory
+at org.apache.commons.io.FileUtils.moveDirectory(FileUtils.java:1944)
+at org.test.automation.base.BrowserManager.prepareTestReport(BrowserManager.java:298)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prepareTestReport -->
-        <test-method is-config="true" signature="stop()[pri:0, instance:org.test.automation.UI.testcases.AutomateTestSite@40005471]" started-at="2023-05-24T15:04:34 IST" name="stop" finished-at="2023-05-24T15:04:34 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="stop()[pri:0, instance:org.test.automation.UI.testcases.CheckForAppChanges@7530ad9c]" started-at="2023-08-07T18:26:11 IST" name="stop" finished-at="2023-08-07T18:26:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->
-      </class> <!-- org.test.automation.UI.testcases.AutomateTestSite -->
+      </class> <!-- org.test.automation.UI.testcases.CheckForAppChanges -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

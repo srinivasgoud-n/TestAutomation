@@ -142,6 +142,7 @@ public class Helper extends BrowserManager {
 	public static String getFileSeparator() {
 		String OS = System.getProperty("os.name");
 		String fs = "";
+		System.out.println("Windows: "+OS.contains("Windows"));
 		if (OS.contains("WINDOWS")||OS.contains("Windows")) {
 			fs = "\\";
 		} else if (OS.equalsIgnoreCase("MAC") || OS.equalsIgnoreCase("LINUX")) {

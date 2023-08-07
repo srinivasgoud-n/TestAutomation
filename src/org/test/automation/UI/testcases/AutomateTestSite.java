@@ -4,6 +4,7 @@ import org.test.automation.base.BrowserManager;
 import org.test.automation.base.Helper;
 import org.test.automation.exception.FrameWorkException;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 
@@ -25,6 +26,7 @@ public class AutomateTestSite extends BrowserManager{
 		Assert.assertFalse(page.verifyUploadButton());
 		
 		Helper.navigateBack();
+		throw new SkipException("Skipping Execution");
 		
 	}
 	

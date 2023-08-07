@@ -357,11 +357,11 @@ public class ReportGenerator extends BrowserManager {
 
 		System.out.println(System.getProperty("user.dir"));
 
-		File file = new File(System.getProperty("user.dir") + fs + "TestReport_" + DateUtils.getCurrentTimeStamp()+".html");
-		if (!file.exists()) {
-			file.createNewFile();
+		
+		if (!reportName.exists()) {
+			reportName.createNewFile();
 		}
-		FileWriter fw = new FileWriter(file.getAbsoluteFile());
+		FileWriter fw = new FileWriter(reportName.getAbsoluteFile());
 
 		BufferedWriter bw = new BufferedWriter(fw);
 		bw.write(sb.toString());
@@ -501,7 +501,7 @@ public class ReportGenerator extends BrowserManager {
 		bw.close();
 		System.out.println("Done!");
 		return sb.toString();
-		
+
 	}
 
 	public static void main(String args[]) throws FrameWorkException, IOException {

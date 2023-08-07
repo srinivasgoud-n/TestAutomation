@@ -1,69 +1,136 @@
- INFO 2023-05-24 13:18:19,735 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 24-05-2023-01-18-19
- INFO 2023-05-24 13:18:19,785 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
- INFO 2023-05-24 13:18:19,786 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
- INFO 2023-05-24 13:18:38,460 [base.BrowserManager] [main] [BrowserManager.java:177] - ####Test Case PASSED:TC_testCheckboxes
- INFO 2023-05-24 13:18:38,722 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
- INFO 2023-05-24 13:18:38,724 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
- INFO 2023-05-24 13:18:48,794 [base.BrowserManager] [main] [BrowserManager.java:181] - ####Test Case FAILED:TC_testFileUpload
- INFO 2023-05-24 13:18:49,827 [base.BrowserManager] [main] [BrowserManager.java:273] - Execution Completed at: 24-05-2023-01-18-49
- INFO 2023-05-24 13:18:49,831 [base.BrowserManager] [main] [BrowserManager.java:278] - Time Taken for Execution: 30 Second(s).
- INFO 2023-05-24 13:18:49,833 [base.BrowserManager] [main] [BrowserManager.java:281] - Total Time Taken for Execution: 30 Second(s).
- INFO 2023-05-24 13:18:49,863 [base.BrowserManager] [main] [BrowserManager.java:294] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\24-05-2023-01-18-49
- INFO 2023-05-24 13:18:49,870 [base.BrowserManager] [main] [BrowserManager.java:298] - File: C:\Users\snakka\Personal\TestAutomation\TestReport.html\ Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\24-05-2023-01-18-49
- INFO 2023-05-24 13:19:47,439 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 24-05-2023-01-19-47
- INFO 2023-05-24 13:19:47,469 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
- INFO 2023-05-24 13:19:47,470 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
- INFO 2023-05-24 13:19:59,010 [base.BrowserManager] [main] [BrowserManager.java:177] - ####Test Case PASSED:TC_testCheckboxes
- INFO 2023-05-24 13:19:59,354 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
- INFO 2023-05-24 13:19:59,354 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
- INFO 2023-05-24 13:20:10,376 [base.BrowserManager] [main] [BrowserManager.java:181] - ####Test Case FAILED:TC_testFileUpload
- INFO 2023-05-24 13:20:11,507 [base.BrowserManager] [main] [BrowserManager.java:273] - Execution Completed at: 24-05-2023-01-20-11
- INFO 2023-05-24 13:20:11,511 [base.BrowserManager] [main] [BrowserManager.java:278] - Time Taken for Execution: 24 Second(s).
- INFO 2023-05-24 13:20:11,513 [base.BrowserManager] [main] [BrowserManager.java:281] - Total Time Taken for Execution: 24 Second(s).
- INFO 2023-05-24 13:20:51,503 [base.BrowserManager] [main] [BrowserManager.java:294] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\24-05-2023-01-20-51
- INFO 2023-05-24 13:20:51,509 [base.BrowserManager] [main] [BrowserManager.java:298] - File: C:\Users\snakka\Personal\TestAutomation\TestReport.html\ Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\24-05-2023-01-20-51
- INFO 2023-05-24 13:21:38,927 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 24-05-2023-01-21-38
- INFO 2023-05-24 13:21:38,960 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
- INFO 2023-05-24 13:21:38,960 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
- INFO 2023-05-24 13:21:53,382 [base.BrowserManager] [main] [BrowserManager.java:177] - ####Test Case PASSED:TC_testCheckboxes
- INFO 2023-05-24 13:21:53,642 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
- INFO 2023-05-24 13:21:53,643 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
- INFO 2023-05-24 13:22:08,262 [base.BrowserManager] [main] [BrowserManager.java:181] - ####Test Case FAILED:TC_testFileUpload
- INFO 2023-05-24 13:22:09,009 [base.BrowserManager] [main] [BrowserManager.java:273] - Execution Completed at: 24-05-2023-01-22-09
- INFO 2023-05-24 13:22:09,013 [base.BrowserManager] [main] [BrowserManager.java:278] - Time Taken for Execution: 31 Second(s).
- INFO 2023-05-24 13:22:09,014 [base.BrowserManager] [main] [BrowserManager.java:281] - Total Time Taken for Execution: 31 Second(s).
- INFO 2023-05-24 13:22:09,042 [base.BrowserManager] [main] [BrowserManager.java:294] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\24-05-2023-01-22-09
- INFO 2023-05-24 13:22:09,047 [base.BrowserManager] [main] [BrowserManager.java:298] - File: C:\Users\snakka\Personal\TestAutomation\TestReport.html\ Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\24-05-2023-01-22-09
- INFO 2023-05-24 14:55:19,983 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 24-05-2023-02-55-19
- INFO 2023-05-24 14:55:20,015 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
- INFO 2023-05-24 14:55:20,015 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
- INFO 2023-05-24 14:55:45,740 [base.BrowserManager] [main] [BrowserManager.java:177] - ####Test Case PASSED:TC_testCheckboxes
- INFO 2023-05-24 14:55:46,021 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
- INFO 2023-05-24 14:55:46,022 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
- INFO 2023-05-24 14:56:00,817 [base.BrowserManager] [main] [BrowserManager.java:181] - ####Test Case FAILED:TC_testFileUpload
- INFO 2023-05-24 14:56:01,703 [base.BrowserManager] [main] [BrowserManager.java:273] - Execution Completed at: 24-05-2023-02-56-01
- INFO 2023-05-24 14:56:01,706 [base.BrowserManager] [main] [BrowserManager.java:278] - Time Taken for Execution: 42 Second(s).
- INFO 2023-05-24 14:56:01,707 [base.BrowserManager] [main] [BrowserManager.java:281] - Total Time Taken for Execution: 42 Second(s).
- INFO 2023-05-24 14:58:18,058 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 24-05-2023-02-58-18
- INFO 2023-05-24 14:58:18,089 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
- INFO 2023-05-24 14:58:18,090 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
- INFO 2023-05-24 14:58:39,739 [base.BrowserManager] [main] [BrowserManager.java:177] - ####Test Case PASSED:TC_testCheckboxes
- INFO 2023-05-24 14:58:39,904 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
- INFO 2023-05-24 14:58:39,905 [base.BrowserManager] [main] [BrowserManager.java:148] - Launching Chrome Browser...
- INFO 2023-05-24 14:58:55,440 [base.BrowserManager] [main] [BrowserManager.java:181] - ####Test Case FAILED:TC_testFileUpload
- INFO 2023-05-24 15:00:08,267 [base.BrowserManager] [main] [BrowserManager.java:273] - Execution Completed at: 24-05-2023-03-00-08
- INFO 2023-05-24 15:00:08,272 [base.BrowserManager] [main] [BrowserManager.java:278] - Time Taken for Execution: 1 Minute(s), 50 Second(s).
- INFO 2023-05-24 15:00:08,275 [base.BrowserManager] [main] [BrowserManager.java:281] - Total Time Taken for Execution: 1 Minute(s), 50 Second(s).
- INFO 2023-05-24 15:00:38,316 [base.BrowserManager] [main] [BrowserManager.java:294] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\24-05-2023-03-00-26
- INFO 2023-05-24 15:03:48,107 [base.BrowserManager] [main] [BrowserManager.java:111] - Execution Started at 24-05-2023-03-03-48
- INFO 2023-05-24 15:03:48,133 [base.BrowserManager] [main] [BrowserManager.java:137] - Executing on Windows machine...
- INFO 2023-05-24 15:03:48,134 [base.BrowserManager] [main] [BrowserManager.java:149] - Launching Chrome Browser...
- INFO 2023-05-24 15:04:14,603 [base.BrowserManager] [main] [BrowserManager.java:179] - ####Test Case PASSED:TC_testCheckboxes
- INFO 2023-05-24 15:04:14,777 [base.BrowserManager] [main] [BrowserManager.java:137] - Executing on Windows machine...
- INFO 2023-05-24 15:04:14,779 [base.BrowserManager] [main] [BrowserManager.java:149] - Launching Chrome Browser...
- INFO 2023-05-24 15:04:33,671 [base.BrowserManager] [main] [BrowserManager.java:183] - ####Test Case FAILED:TC_testFileUpload
- INFO 2023-05-24 15:04:34,427 [base.BrowserManager] [main] [BrowserManager.java:275] - Execution Completed at: 24-05-2023-03-04-34
- INFO 2023-05-24 15:04:34,430 [base.BrowserManager] [main] [BrowserManager.java:280] - Time Taken for Execution: 46 Second(s).
- INFO 2023-05-24 15:04:34,431 [base.BrowserManager] [main] [BrowserManager.java:283] - Total Time Taken for Execution: 46 Second(s).
- INFO 2023-05-24 15:04:34,461 [base.BrowserManager] [main] [BrowserManager.java:296] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\24-05-2023-03-04-34
- INFO 2023-05-24 15:04:34,464 [base.BrowserManager] [main] [BrowserManager.java:300] - File: C:\Users\snakka\Personal\TestAutomation\TestReport.html\ Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\24-05-2023-03-04-34
+ INFO 2023-08-07 12:03:19,571 [base.BrowserManager] [main] [BrowserManager.java:111] - Execution Started at 07-08-2023-12-03-19
+ INFO 2023-08-07 12:03:19,600 [base.BrowserManager] [main] [BrowserManager.java:137] - Executing on Windows machine...
+ INFO 2023-08-07 12:03:19,600 [base.BrowserManager] [main] [BrowserManager.java:149] - Launching Chrome Browser...
+ INFO 2023-08-07 12:06:40,400 [base.BrowserManager] [main] [BrowserManager.java:111] - Execution Started at 07-08-2023-12-06-40
+ INFO 2023-08-07 12:06:40,422 [base.BrowserManager] [main] [BrowserManager.java:137] - Executing on Windows machine...
+ INFO 2023-08-07 12:06:40,432 [base.BrowserManager] [main] [BrowserManager.java:149] - Launching Chrome Browser...
+ INFO 2023-08-07 12:06:50,079 [base.BrowserManager] [main] [BrowserManager.java:179] - ####Test Case PASSED:validateAppChanges
+ INFO 2023-08-07 12:06:51,342 [base.BrowserManager] [main] [BrowserManager.java:275] - Execution Completed at: 07-08-2023-12-06-51
+ INFO 2023-08-07 12:06:51,345 [base.BrowserManager] [main] [BrowserManager.java:280] - Time Taken for Execution: 11 Second(s).
+ INFO 2023-08-07 12:06:51,346 [base.BrowserManager] [main] [BrowserManager.java:283] - Total Time Taken for Execution: 11 Second(s).
+ INFO 2023-08-07 12:06:51,458 [base.BrowserManager] [main] [BrowserManager.java:296] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-06-51
+ INFO 2023-08-07 12:06:51,468 [base.BrowserManager] [main] [BrowserManager.java:300] - File: C:\Users\snakka\Personal\TestAutomation\TestReport.html\ Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-06-51
+ INFO 2023-08-07 12:07:08,978 [base.BrowserManager] [main] [BrowserManager.java:111] - Execution Started at 07-08-2023-12-07-08
+ INFO 2023-08-07 12:07:09,001 [base.BrowserManager] [main] [BrowserManager.java:137] - Executing on Windows machine...
+ INFO 2023-08-07 12:07:09,002 [base.BrowserManager] [main] [BrowserManager.java:149] - Launching Chrome Browser...
+ INFO 2023-08-07 12:07:13,684 [base.BrowserManager] [main] [BrowserManager.java:183] - ####Test Case FAILED:validateAppChanges
+ INFO 2023-08-07 12:07:14,384 [base.BrowserManager] [main] [BrowserManager.java:275] - Execution Completed at: 07-08-2023-12-07-14
+ INFO 2023-08-07 12:07:14,387 [base.BrowserManager] [main] [BrowserManager.java:280] - Time Taken for Execution: 6 Second(s).
+ INFO 2023-08-07 12:07:14,388 [base.BrowserManager] [main] [BrowserManager.java:283] - Total Time Taken for Execution: 6 Second(s).
+ INFO 2023-08-07 12:07:14,452 [base.BrowserManager] [main] [BrowserManager.java:296] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-07-14
+ INFO 2023-08-07 12:07:14,459 [base.BrowserManager] [main] [BrowserManager.java:300] - File: C:\Users\snakka\Personal\TestAutomation\TestReport.html\ Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-07-14
+ INFO 2023-08-07 12:08:57,179 [base.BrowserManager] [main] [BrowserManager.java:111] - Execution Started at 07-08-2023-12-08-57
+ INFO 2023-08-07 12:09:00,797 [base.BrowserManager] [main] [BrowserManager.java:137] - Executing on Windows machine...
+ INFO 2023-08-07 12:09:00,799 [base.BrowserManager] [main] [BrowserManager.java:149] - Launching Chrome Browser...
+ INFO 2023-08-07 12:09:04,144 [base.BrowserManager] [main] [BrowserManager.java:183] - ####Test Case FAILED:validateAppChanges
+ INFO 2023-08-07 12:09:12,552 [base.BrowserManager] [main] [BrowserManager.java:275] - Execution Completed at: 07-08-2023-12-09-12
+ INFO 2023-08-07 12:09:12,554 [base.BrowserManager] [main] [BrowserManager.java:280] - Time Taken for Execution: 15 Second(s).
+ INFO 2023-08-07 12:09:12,555 [base.BrowserManager] [main] [BrowserManager.java:283] - Total Time Taken for Execution: 15 Second(s).
+ INFO 2023-08-07 12:09:16,238 [base.BrowserManager] [main] [BrowserManager.java:296] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-09-16
+ INFO 2023-08-07 12:09:16,242 [base.BrowserManager] [main] [BrowserManager.java:300] - File: C:\Users\snakka\Personal\TestAutomation\TestReport.html\ Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-09-16
+ INFO 2023-08-07 12:12:15,955 [base.BrowserManager] [main] [BrowserManager.java:111] - Execution Started at 07-08-2023-12-12-15
+ INFO 2023-08-07 12:12:15,981 [base.BrowserManager] [main] [BrowserManager.java:137] - Executing on Windows machine...
+ INFO 2023-08-07 12:12:15,981 [base.BrowserManager] [main] [BrowserManager.java:149] - Launching Chrome Browser...
+ INFO 2023-08-07 12:12:35,254 [base.BrowserManager] [main] [BrowserManager.java:183] - ####Test Case FAILED:validateAppChanges
+ INFO 2023-08-07 12:12:35,833 [base.BrowserManager] [main] [BrowserManager.java:275] - Execution Completed at: 07-08-2023-12-12-35
+ INFO 2023-08-07 12:12:35,835 [base.BrowserManager] [main] [BrowserManager.java:280] - Time Taken for Execution: 20 Second(s).
+ INFO 2023-08-07 12:12:35,836 [base.BrowserManager] [main] [BrowserManager.java:283] - Total Time Taken for Execution: 20 Second(s).
+ INFO 2023-08-07 12:12:35,879 [base.BrowserManager] [main] [BrowserManager.java:296] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-12-35
+ INFO 2023-08-07 12:12:35,883 [base.BrowserManager] [main] [BrowserManager.java:300] - File: C:\Users\snakka\Personal\TestAutomation\TestReport.html\ Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-12-35
+ INFO 2023-08-07 12:14:09,458 [base.BrowserManager] [main] [BrowserManager.java:111] - Execution Started at 07-08-2023-12-14-09
+ INFO 2023-08-07 12:14:09,478 [base.BrowserManager] [main] [BrowserManager.java:137] - Executing on Windows machine...
+ INFO 2023-08-07 12:14:09,479 [base.BrowserManager] [main] [BrowserManager.java:149] - Launching Chrome Browser...
+ INFO 2023-08-07 12:14:29,376 [base.BrowserManager] [main] [BrowserManager.java:191] - ####Test Case SKIPPED:validateAppChanges
+ INFO 2023-08-07 12:14:29,855 [base.BrowserManager] [main] [BrowserManager.java:275] - Execution Completed at: 07-08-2023-12-14-29
+ INFO 2023-08-07 12:14:29,856 [base.BrowserManager] [main] [BrowserManager.java:280] - Time Taken for Execution: 20 Second(s).
+ INFO 2023-08-07 12:14:29,857 [base.BrowserManager] [main] [BrowserManager.java:283] - Total Time Taken for Execution: 20 Second(s).
+ INFO 2023-08-07 12:14:29,907 [base.BrowserManager] [main] [BrowserManager.java:296] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-14-29
+ INFO 2023-08-07 12:14:29,911 [base.BrowserManager] [main] [BrowserManager.java:300] - File: C:\Users\snakka\Personal\TestAutomation\TestReport.html\ Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-14-29
+ INFO 2023-08-07 12:15:51,609 [base.BrowserManager] [main] [BrowserManager.java:111] - Execution Started at 07-08-2023-12-15-51
+ INFO 2023-08-07 12:15:51,628 [base.BrowserManager] [main] [BrowserManager.java:137] - Executing on Windows machine...
+ INFO 2023-08-07 12:15:51,628 [base.BrowserManager] [main] [BrowserManager.java:149] - Launching Chrome Browser...
+ INFO 2023-08-07 12:16:49,119 [base.BrowserManager] [main] [BrowserManager.java:191] - ####Test Case SKIPPED:validateAppChanges
+ INFO 2023-08-07 12:21:07,749 [base.BrowserManager] [main] [BrowserManager.java:275] - Execution Completed at: 07-08-2023-12-21-07
+ INFO 2023-08-07 12:21:07,751 [base.BrowserManager] [main] [BrowserManager.java:280] - Time Taken for Execution: 5 Minute(s), 16 Second(s).
+ INFO 2023-08-07 12:21:07,751 [base.BrowserManager] [main] [BrowserManager.java:283] - Total Time Taken for Execution: 5 Minute(s), 16 Second(s).
+ INFO 2023-08-07 12:21:07,800 [base.BrowserManager] [main] [BrowserManager.java:296] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-21-07
+ INFO 2023-08-07 12:21:07,805 [base.BrowserManager] [main] [BrowserManager.java:300] - File: C:\Users\snakka\Personal\TestAutomation\TestReport.html\ Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-21-07
+ INFO 2023-08-07 12:38:21,579 [base.BrowserManager] [main] [BrowserManager.java:111] - Execution Started at 07-08-2023-12-38-21
+ INFO 2023-08-07 12:38:21,605 [base.BrowserManager] [main] [BrowserManager.java:137] - Executing on Windows machine...
+ INFO 2023-08-07 12:38:21,606 [base.BrowserManager] [main] [BrowserManager.java:149] - Launching Chrome Browser...
+ INFO 2023-08-07 12:39:18,049 [base.BrowserManager] [main] [BrowserManager.java:191] - ####Test Case SKIPPED:validateAppChanges
+ INFO 2023-08-07 12:39:18,760 [base.BrowserManager] [main] [BrowserManager.java:275] - Execution Completed at: 07-08-2023-12-39-18
+ INFO 2023-08-07 12:39:18,762 [base.BrowserManager] [main] [BrowserManager.java:280] - Time Taken for Execution: 57 Second(s).
+ INFO 2023-08-07 12:39:18,763 [base.BrowserManager] [main] [BrowserManager.java:283] - Total Time Taken for Execution: 57 Second(s).
+ INFO 2023-08-07 12:41:24,491 [base.BrowserManager] [main] [BrowserManager.java:296] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-41-22
+ INFO 2023-08-07 12:41:29,327 [base.BrowserManager] [main] [BrowserManager.java:300] - File: C:\Users\snakka\Personal\TestAutomation\TestReport.html\ Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-12-41-22
+ INFO 2023-08-07 12:51:43,896 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 07-08-2023-12-51-43
+ INFO 2023-08-07 12:51:43,921 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
+ INFO 2023-08-07 12:51:43,921 [base.BrowserManager] [main] [BrowserManager.java:151] - Launching Chrome Browser...
+ INFO 2023-08-07 12:52:05,044 [base.BrowserManager] [main] [BrowserManager.java:193] - ####Test Case SKIPPED:validateAppChanges
+ INFO 2023-08-07 12:52:05,804 [base.BrowserManager] [main] [BrowserManager.java:277] - Execution Completed at: 07-08-2023-12-52-05
+ INFO 2023-08-07 12:52:05,807 [base.BrowserManager] [main] [BrowserManager.java:282] - Time Taken for Execution: 22 Second(s).
+ INFO 2023-08-07 12:52:05,808 [base.BrowserManager] [main] [BrowserManager.java:285] - Total Time Taken for Execution: 22 Second(s).
+ INFO 2023-08-07 12:52:43,940 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 07-08-2023-12-52-43
+ INFO 2023-08-07 12:52:43,967 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
+ INFO 2023-08-07 12:52:43,967 [base.BrowserManager] [main] [BrowserManager.java:151] - Launching Chrome Browser...
+ INFO 2023-08-07 12:53:11,351 [base.BrowserManager] [main] [BrowserManager.java:193] - ####Test Case SKIPPED:validateAppChanges
+ INFO 2023-08-07 12:53:12,137 [base.BrowserManager] [main] [BrowserManager.java:277] - Execution Completed at: 07-08-2023-12-53-12
+ INFO 2023-08-07 12:53:12,141 [base.BrowserManager] [main] [BrowserManager.java:282] - Time Taken for Execution: 29 Second(s).
+ INFO 2023-08-07 12:53:12,142 [base.BrowserManager] [main] [BrowserManager.java:285] - Total Time Taken for Execution: 29 Second(s).
+ INFO 2023-08-07 13:05:27,565 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 07-08-2023-01-05-27
+ INFO 2023-08-07 13:05:27,594 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
+ INFO 2023-08-07 13:05:27,596 [base.BrowserManager] [main] [BrowserManager.java:151] - Launching Chrome Browser...
+ INFO 2023-08-07 13:05:48,816 [base.BrowserManager] [main] [BrowserManager.java:193] - ####Test Case SKIPPED:validateAppChanges
+ INFO 2023-08-07 13:05:49,431 [base.BrowserManager] [main] [BrowserManager.java:277] - Execution Completed at: 07-08-2023-01-05-49
+ INFO 2023-08-07 13:05:49,434 [base.BrowserManager] [main] [BrowserManager.java:282] - Time Taken for Execution: 22 Second(s).
+ INFO 2023-08-07 13:05:49,435 [base.BrowserManager] [main] [BrowserManager.java:285] - Total Time Taken for Execution: 22 Second(s).
+ INFO 2023-08-07 13:05:49,483 [base.BrowserManager] [main] [BrowserManager.java:295] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-01-05-27
+ INFO 2023-08-07 13:05:49,487 [base.BrowserManager] [main] [BrowserManager.java:298] - File: C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\TestReport_07-08-2023-01-05-49.html Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-01-05-27
+ INFO 2023-08-07 14:32:18,754 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 07-08-2023-02-32-18
+ INFO 2023-08-07 14:32:18,779 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
+ INFO 2023-08-07 14:32:18,779 [base.BrowserManager] [main] [BrowserManager.java:151] - Launching Chrome Browser...
+ INFO 2023-08-07 14:32:48,491 [base.BrowserManager] [main] [BrowserManager.java:193] - ####Test Case SKIPPED:validateAppChanges
+ INFO 2023-08-07 14:33:28,956 [base.BrowserManager] [main] [BrowserManager.java:277] - Execution Completed at: 07-08-2023-02-33-28
+ INFO 2023-08-07 14:33:28,960 [base.BrowserManager] [main] [BrowserManager.java:282] - Time Taken for Execution: 1 Minute(s), 10 Second(s).
+ INFO 2023-08-07 14:33:28,962 [base.BrowserManager] [main] [BrowserManager.java:285] - Total Time Taken for Execution: 1 Minute(s), 10 Second(s).
+ INFO 2023-08-07 14:33:35,981 [base.BrowserManager] [main] [BrowserManager.java:295] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-02-32-18
+ INFO 2023-08-07 14:33:35,986 [base.BrowserManager] [main] [BrowserManager.java:298] - File: C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\TestReport_07-08-2023-02-33-34.html Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-02-32-18
+ INFO 2023-08-07 18:09:12,186 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 07-08-2023-06-09-12
+ INFO 2023-08-07 18:09:12,208 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
+ INFO 2023-08-07 18:09:12,208 [base.BrowserManager] [main] [BrowserManager.java:151] - Launching Chrome Browser...
+ INFO 2023-08-07 18:09:32,696 [base.BrowserManager] [main] [BrowserManager.java:193] - ####Test Case SKIPPED:validateAppChanges
+ INFO 2023-08-07 18:10:29,073 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 07-08-2023-06-10-29
+ INFO 2023-08-07 18:10:29,097 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
+ INFO 2023-08-07 18:10:29,098 [base.BrowserManager] [main] [BrowserManager.java:151] - Launching Chrome Browser...
+ INFO 2023-08-07 18:10:34,685 [base.BrowserManager] [main] [BrowserManager.java:181] - ####Test Case PASSED:validateAppChanges
+ INFO 2023-08-07 18:10:35,680 [base.BrowserManager] [main] [BrowserManager.java:277] - Execution Completed at: 07-08-2023-06-10-35
+ INFO 2023-08-07 18:10:35,685 [base.BrowserManager] [main] [BrowserManager.java:282] - Time Taken for Execution: 6 Second(s).
+ INFO 2023-08-07 18:10:35,687 [base.BrowserManager] [main] [BrowserManager.java:285] - Total Time Taken for Execution: 6 Second(s).
+ INFO 2023-08-07 18:10:35,709 [base.BrowserManager] [main] [BrowserManager.java:295] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-06-10-28
+ INFO 2023-08-07 18:10:35,718 [base.BrowserManager] [main] [BrowserManager.java:298] - File: C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\TestReport_07-08-2023-06-10-35.html Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-06-10-28
+ INFO 2023-08-07 18:11:01,937 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 07-08-2023-06-11-01
+ INFO 2023-08-07 18:11:01,959 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
+ INFO 2023-08-07 18:11:01,959 [base.BrowserManager] [main] [BrowserManager.java:151] - Launching Chrome Browser...
+ INFO 2023-08-07 18:11:20,164 [base.BrowserManager] [main] [BrowserManager.java:193] - ####Test Case SKIPPED:validateAppChanges
+ INFO 2023-08-07 18:11:20,682 [base.BrowserManager] [main] [BrowserManager.java:277] - Execution Completed at: 07-08-2023-06-11-20
+ INFO 2023-08-07 18:11:20,684 [base.BrowserManager] [main] [BrowserManager.java:282] - Time Taken for Execution: 19 Second(s).
+ INFO 2023-08-07 18:11:20,684 [base.BrowserManager] [main] [BrowserManager.java:285] - Total Time Taken for Execution: 19 Second(s).
+ INFO 2023-08-07 18:11:20,695 [base.BrowserManager] [main] [BrowserManager.java:295] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-06-11-01
+ INFO 2023-08-07 18:11:20,699 [base.BrowserManager] [main] [BrowserManager.java:298] - File: C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\TestReport_07-08-2023-06-11-20.html Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-06-11-01
+ INFO 2023-08-07 18:14:07,503 [base.BrowserManager] [main] [BrowserManager.java:113] - Execution Started at 07-08-2023-06-14-07
+ INFO 2023-08-07 18:14:07,524 [base.BrowserManager] [main] [BrowserManager.java:139] - Executing on Windows machine...
+ INFO 2023-08-07 18:14:07,524 [base.BrowserManager] [main] [BrowserManager.java:151] - Launching Chrome Browser...
+ INFO 2023-08-07 18:14:26,350 [base.BrowserManager] [main] [BrowserManager.java:193] - ####Test Case SKIPPED:validateAppChanges
+ INFO 2023-08-07 18:14:26,860 [base.BrowserManager] [main] [BrowserManager.java:277] - Execution Completed at: 07-08-2023-06-14-26
+ INFO 2023-08-07 18:14:26,863 [base.BrowserManager] [main] [BrowserManager.java:282] - Time Taken for Execution: 19 Second(s).
+ INFO 2023-08-07 18:14:26,864 [base.BrowserManager] [main] [BrowserManager.java:285] - Total Time Taken for Execution: 19 Second(s).
+ INFO 2023-08-07 18:14:26,879 [base.BrowserManager] [main] [BrowserManager.java:295] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-06-14-07
+ INFO 2023-08-07 18:25:50,361 [base.BrowserManager] [main] [BrowserManager.java:115] - Execution Started at 07-08-2023-06-25-50
+ INFO 2023-08-07 18:25:50,382 [base.BrowserManager] [main] [BrowserManager.java:141] - Executing on Windows machine...
+ INFO 2023-08-07 18:25:50,383 [base.BrowserManager] [main] [BrowserManager.java:153] - Launching Chrome Browser...
+ INFO 2023-08-07 18:26:10,937 [base.BrowserManager] [main] [BrowserManager.java:195] - ####Test Case SKIPPED:validateAppChanges
+ INFO 2023-08-07 18:26:11,571 [base.BrowserManager] [main] [BrowserManager.java:279] - Execution Completed at: 07-08-2023-06-26-11
+ INFO 2023-08-07 18:26:11,574 [base.BrowserManager] [main] [BrowserManager.java:284] - Time Taken for Execution: 21 Second(s).
+ INFO 2023-08-07 18:26:11,575 [base.BrowserManager] [main] [BrowserManager.java:287] - Total Time Taken for Execution: 21 Second(s).
+ INFO 2023-08-07 18:26:11,587 [base.BrowserManager] [main] [BrowserManager.java:297] - Folder: C:\Users\snakka\Personal\TestAutomation\Reports Copied to C:\Users\snakka\Personal\TestAutomation\TestAutomationReports\07-08-2023-06-25-50

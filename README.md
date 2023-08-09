@@ -11,4 +11,4 @@
 6.  src>org>test>automation>pages - This directory contains page classes
 7.  src>org>test>automation>utils - This directory contains utilities like DateUtils, StringUtils, TimeUtils etc..,
 8. Reports folder - TestAutomationReports
-9 Screenshots folder - Snapshots
+9. Screenshots folder - Snapshots

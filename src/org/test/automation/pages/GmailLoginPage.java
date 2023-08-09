@@ -1,4 +1,4 @@
-package org.test.automation.UI.testcases;
+package org.test.automation.pages;
 
 import java.io.FileNotFoundException;
 

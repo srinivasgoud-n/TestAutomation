@@ -3,6 +3,7 @@ package org.test.automation.UI.testcases;
 import org.test.automation.base.BrowserManager;
 import org.test.automation.base.Helper;
 import org.test.automation.exception.FrameWorkException;
+import org.test.automation.pages.AutomateSitePage;
 import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.Test;

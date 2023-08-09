@@ -10,6 +10,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 import org.test.automation.base.BrowserManager;
+import org.test.automation.constants.TestStatus;
 import org.test.automation.exception.FrameWorkException;
 
 /**
@@ -420,17 +421,17 @@ public class ReportGenerator extends BrowserManager {
 			// System.out.println("::" + _Status + "::" + TCPASSED + "::" + TCFAILED + "::"
 			// + TCSKIPPED);
 
-			if (_Status.equals(TCPASSED)) {
+			if (_Status.equals(TestStatus.TCPASSED)) {
 				sb.append(
 						"<td style = \"border:solid 1px; background: #FFFFFF; color: green; font-weight: bold;text-align: left;width:15%\">");
 				sb.append(_Status);
 				sb.append("</td>");
-			} else if (_Status.equals(TCFAILED)) {
+			} else if (_Status.equals(TestStatus.TCFAILED)) {
 				sb.append(
 						"<td style = \"border:solid 1px; background: #FFFFFF; color: #ff0000; font-weight: bold;text-align: left;width:15%\">");
 				sb.append(_Status);
 				sb.append("</td>");
-			} else if (_Status.equals(TCSKIPPED)) {
+			} else if (_Status.equals(TestStatus.TCSKIPPED)) {
 				sb.append(
 						"<td style = \"border:solid 1px; background: #FFFFFF; color: #ff8c00; font-weight: bold;text-align: left;width:15%\">");
 				sb.append(_Status);

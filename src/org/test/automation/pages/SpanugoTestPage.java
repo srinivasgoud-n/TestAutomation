@@ -1,4 +1,4 @@
-package org.test.automation.UI.testcases;
+package org.test.automation.pages;
 
 import org.openqa.selenium.By;
 import org.test.automation.base.BrowserManager;

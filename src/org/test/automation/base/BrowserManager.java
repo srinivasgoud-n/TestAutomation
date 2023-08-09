@@ -58,9 +58,6 @@ public class BrowserManager {
 			System.getProperty("user.dir") + fs + "TestAutomationReports" + fs + "TestReport_" + timestamp + ".html");
 	protected static final String destpath = CURRENTDIR + fs + "TestAutomationReports" + fs + timestamp;
 
-	protected static final String TCPASSED = "PASSED";
-	protected static final String TCFAILED = "FAILED";
-	protected static final String TCSKIPPED = "SKIPPED";
 
 	private static String startTime = "";
 	private static String endTime = "";

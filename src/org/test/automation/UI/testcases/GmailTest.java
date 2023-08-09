@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import org.openqa.selenium.By;
 import org.test.automation.base.BrowserManager;
 import org.test.automation.exception.FrameWorkException;
+import org.test.automation.pages.GmailComposePage;
+import org.test.automation.pages.GmailLoginPage;
 import org.test.automation.utils.PropertyReader;
 import org.testng.Assert;
 import org.testng.annotations.Test;
